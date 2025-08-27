@@ -41,7 +41,9 @@ WHERE {
     }
 }
 LIMIT 200
-```text
+
+```
+
 #### Expected results:
 #### - Diseaselabel: Disease name
 #### - o, p: Annotation properties and objects
