@@ -5,9 +5,9 @@
 # PYTHON VERSION WILL BE DONE
 
 # todo : add files as arguments instead full path
-$ofcoFile   = 'G:\Mon Drive\ORPHANET\ERDERA\thesaurus owl\scripts\OFCO_thesaurus.owl'
-$xmlFile    = 'G:\Mon Drive\ORPHANET\ERDERA\thesaurus owl\scripts\Disability_adapted_ontology.xml'
-$outputFile = 'G:\Mon Drive\ORPHANET\ERDERA\thesaurus owl\scripts\Diseases_annotated_with_OFCO.owl'
+$ofcoFile   = 'OFCO_thesaurus.owl'
+$xmlFile    = 'Disability_adapted_ontology.xml'
+$outputFile = 'Diseases_annotated_with_OFCO.owl'
 
 Write-Host '🔄 loading OFCO...' -ForegroundColor Yellow
 
