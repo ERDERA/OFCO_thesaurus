@@ -1,0 +1,24 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+PREFIX ofco: <https://w3id.org/ofco#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?ordo ?label ?labeldisa ?code ?match
+WHERE {
+    ?ordo <https://w3id.org/ofco/hasDisabilityAnnotation> ?annotation .
+    ?annotation <https://w3id.org/ofco/concernsDisability> ofco:RegulatingUrination .
+    OPTIONAL {
+        ?axiom a owl:Axiom ;
+			   owl:annotatedSource ofco:RegulatingUrination ;
+               owl:annotatedProperty ofco:hasICFuri ;
+               ofco:hasICFcode ?code ;
+			   obo:ECO_0000218 ?match .
+    }
+    OPTIONAL { ?ordo rdfs:label ?label }.
+    OPTIONAL {ofco:RegulatingUrination rdfs:label ?labeldisa} .
+   
+}
+ORDER BY ?ordo
+
+limit 1000
