@@ -31,7 +31,7 @@ WHERE {
     # Optional ICF URI (may exist or not)
     OPTIONAL {?p ofco:hasICFuri ?uri}.
     
-    # Annotation metadata with ICF code and match score (ICF codes may exist or not)
+    # Annotation metadata with ICF code and manual assertion of mappings (ICF codes may exist or not)
     OPTIONAL {
         ?axiom a owl:Axiom ;
                owl:annotatedProperty ofco:hasICFuri ;
