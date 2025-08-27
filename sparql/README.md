@@ -49,7 +49,7 @@ LIMIT 200
 #### - o, p: Annotation properties and objects
 #### - uri: Associated ICF URI
 #### - code: ICF code
-#### - match: Match score
+#### - match: Manual assertion for the mapping (E), (NTBT), (BTNT)
 
 
 ## 🖼️ Visual Examples
