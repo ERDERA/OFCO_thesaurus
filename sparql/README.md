@@ -55,9 +55,9 @@ LIMIT 200
 ## 🖼️ Visual Examples
 
 ### Query Execution
-![Query in GraphDB](importGraphDB.png)
+![Query in GraphDB](visuals\importGraphDB.png)
 *Example query being executed in GraphDB Workbench*
 
 ### Sample Results
-![Results table](results.png)
+![Results table](visuals\results.png)
 *Disability annotations for Orphanet_30925*
