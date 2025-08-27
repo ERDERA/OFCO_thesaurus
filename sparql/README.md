@@ -1,14 +1,15 @@
 # SPARQL & GRAPHDB
-## Query: Disability annotations for a specific disease
-### Description: Retrieves OFCO annotations for a given ORDO disease with ICF codes and URI
-### Use case: Analysis of disability profile for a rare disease
-### Tested with: GraphDB 10.x, ORDO 4.7, OFCO 0.1 and Diseases_annotated_with_OFCO.owl
-### Author: [Marc Hanauer]
-### Date: 2025-08-27
+### Query: Disability annotations for a specific disease
+##### Description: Retrieves OFCO annotations for a given ORDO disease with ICF codes and URI
+##### Use case: Analysis of disability profile for a rare disease
+##### Tested with: GraphDB 10.x, ORDO 4.7, OFCO 0.1 and Diseases_annotated_with_OFCO.owl
+##### Author: [Marc Hanauer]
+##### Date: 2025-08-27
 
-## GRAPHDB : create a repository, upload ORDO, OFCO and the annotated diseases. (NB: advanced option "Blank nodes" if you have issues)
+### GRAPHDB : create a repository, upload ORDO, OFCO and the annotated diseases. (NB: advanced option "Blank nodes" if you have issues)
 
-## Standard prefixes for ORDO/OFCO
+### Standard prefixes for ORDO/OFCO
+```text
 PREFIX : <https://w3id.org/ofco#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -40,13 +41,13 @@ WHERE {
     }
 }
 LIMIT 200
-
-### Expected results:
-### - Diseaselabel: Disease name
-### - o, p: Annotation properties and objects
-### - uri: Associated ICF URI
-### - code: ICF code
-### - match: Match score
+```text
+#### Expected results:
+#### - Diseaselabel: Disease name
+#### - o, p: Annotation properties and objects
+#### - uri: Associated ICF URI
+#### - code: ICF code
+#### - match: Match score
 
 
 ## 🖼️ Visual Examples
