@@ -12,7 +12,7 @@ https://sciences.orphadata.com/ordo/
 
 ## OFCO thesaurus processing
 The previous **Orphanet Thesaurus** was manually revised by Orphanet team (Dr Ana Rath and Dr Rami Nadji) to provide a version including latest ICF alignments to ICF URI and ICF codes when relevant. (XLS file)
-Based on that revision, we provided a **OFCO_Thesaurus.owl** RDF/OWL version, including annotation metadata.
+Based on that revision, we provided a **OFCO_Thesaurus.owl** ([`OFCO_Thesaurus.owl`](OFCO_Thesaurus.owl)) RDF/OWL version, including annotation metadata.
 
 ## Functional Consequences XML File
 This file, available through Orphadata platform (https://sciences.orphadata.com/orphanet-scientific-knowledge-files/) contains "Diseases" annotated with "disabilities" concept, and "frequency", "temporality", "severity" and "loss of ability" concepts.
