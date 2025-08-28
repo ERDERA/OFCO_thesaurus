@@ -4,7 +4,7 @@
 As part of the [**WP16.5**](https://github.com/ERDERA/Task-16.5-coordination) project, we aim to consolidate and structure data on the functional consequences of rare diseases. The goal is to create an ontology named **OFCO** to facilitate data analysis and interoperability across different sources.
 
 ## Data Sources
-1. **Orphanet Thesaurus** ([`thesaurus_en.pdf`](data/input/thesaurus_en.pdf)): A thesaurus of functional consequences of rare diseases based on the outdated ICF-CY version, which has been revised and expanded in ICF 2025.
+1. **Orphanet Thesaurus** ([`Orphanet_Functioning_Thesaurus_EN.pdf`](data/input/Orphanet_Functioning_Thesaurus_EN.pdf)): A thesaurus of functional consequences of rare diseases based on the outdated ICF-CY version, which has been revised and expanded in ICF 2025.
 2. **Functional Consequences XML File** ([`en_funct_consequences.xml`](data/input/en_funct_consequences.xml)): A structured dataset linking functional consequences to rare diseases from Orphanet.
 3. **ICF 2025**: The latest version of the International Classification of Functioning, Disability, and Health (ICF), retrieved as a structured JSON file through API calls to [ICD (ICF section).](https://icd.who.int/browse/2025-01/icf/en#619527855)
 4. ORDO (Orphanet Rare Diseases Ontology), produced by Orphanet twice a year. We have used the latest version 4.7
