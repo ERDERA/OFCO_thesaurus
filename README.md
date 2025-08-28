@@ -5,7 +5,7 @@ As part of the [**WP16.5**](https://github.com/ERDERA/Task-16.5-coordination) pr
 
 ## Data Sources
 1. **Orphanet Thesaurus** ([`Orphanet_Functioning_Thesaurus_EN.pdf`](data/input/Orphanet_Functioning_Thesaurus_EN.pdf)): A thesaurus of functional consequences of rare diseases based on the outdated ICF-CY version, which has been revised and expanded in ICF 2025.
-2. **Functional Consequences XML File** ([`en_funct_consequences.xml`](data/input/en_funct_consequences.xml)): A structured dataset linking functional consequences to rare diseases from Orphanet.
+2. **Functional Consequences XML File** ([`en_funct_consequences.xml`](data/input/en_funct_consequences.xml)): A structured dataset linking functional consequences to rare diseases from Orphanet. An adapted version is used: Disability_Orphanet_annotations.xml ([`Disability_Orphanet_annotations.xml`](data/input/Disability_Orphanet_annotations.xml)) which contains internal ID from Orphanet Database and seve as keys/value for OFCO_thesaurus concepts.
 3. **ICF 2025**: The latest version of the International Classification of Functioning, Disability, and Health (ICF), retrieved as a structured JSON file through API calls to [ICD (ICF section).](https://icd.who.int/browse/2025-01/icf/en#619527855)
 4. ORDO (Orphanet Rare Diseases Ontology), produced by Orphanet twice a year. We have used the latest version 4.7
 https://sciences.orphadata.com/ordo/
@@ -16,12 +16,14 @@ Based on that revision, we provided a **OFCO_Thesaurus.owl** RDF/OWL version, in
 
 ## Functional Consequences XML File
 This file, available through Orphadata platform (https://sciences.orphadata.com/orphanet-scientific-knowledge-files/) contains "Diseases" annotated with "disabilities" concept, and "frequency", "temporality", "severity" and "loss of ability" concepts.
-An adapted version is used: Disability_Orphanet_annotations.xml
+An adapted version is used: Disability_Orphanet_annotations.xml ([`Disability_Orphanet_annotations.xml`](data/input/Disability_Orphanet_annotations.xml))
 
 ## OUTPUT
-Diseases_annotated_with_OFCO.owl : a RDF/OWL file containing "Diseases" (ORDO IRI based) annotated with OFCO thesaurus IRI.
+A script has been done to parse "Disability_Orphanet_annotations.xml" and "OFCO_thesaurus.owl" and produce a version of "en_funct_consequences.xml" but only with ORDO IRI for diseases concepts and OFCO IRI for disabilities concept : "Diseases_annotated_with_OFCO.owl"
+([`Diseases_annotated_with_OFCO.owl`](data/output/Diseases_annotated_with_OFCO.owl)) Diseases_annotated_with_OFCO.owl : a RDF/OWL file containing "Diseases" (ORDO IRI based) annotated with OFCO thesaurus IRI.
 
 ## Testing Method
+ORDO has been used. ([`ORDO_en_4.7.owl`](https://sciences.orphadata.com/ordo/))
 Import ORDO (ORDO_en_4.7.owl), Diseases_annotated_with_OFCO.owl and OFCO_Thesaurus.owl in a graphDB instance.
 Testing with SPARQL queries.
 
