@@ -20,6 +20,7 @@ An adapted version is used: Disability_Orphanet_annotations.xml ([`Disability_Or
 
 ## OUTPUT
 A script has been done to parse "Disability_Orphanet_annotations.xml" and "OFCO_thesaurus.owl" and produce a version of "en_funct_consequences.xml" but only with ORDO IRI for diseases concepts and OFCO IRI for disabilities concept : "Diseases_annotated_with_OFCO.owl"
+
 ([`Diseases_annotated_with_OFCO.owl`](data/output/Diseases_annotated_with_OFCO.owl)) Diseases_annotated_with_OFCO.owl : a RDF/OWL file containing "Diseases" (ORDO IRI based) annotated with OFCO thesaurus IRI.
 
 ## Testing Method
