@@ -8,7 +8,7 @@ Go to "Setup" section in GraphDB. Create a "New Repository", "GraphDB Repository
  
 Once your repository is created and made "active, go to the "Import" section
 
-Choose "Upload RDF files", import ORDO [`ORDO_en_4.7.owl`](https://sciences.orphadata.com/ordo/)), OFCO ([`OFCO_thesaurus.owl`](../OFCO_Thesaurus.owl)) and ([`Diseases_annotated_with_OFCO.owl`](../data/output/Diseases_annotated_with_OFCO.owl))
+Choose "Upload RDF files", import ORDO [`ORDO_en_4.7.owl`](https://sciences.orphadata.com/ordo/)), OFCO ([`OFCO_thesaurus.owl`](../OFCO_thesaurus.owl)) and ([`Diseases_annotated_with_OFCO.owl`](../data/output/Diseases_annotated_with_OFCO.owl))
 You should obtain this :
 ![GraphDB loaded](visuals/graphdp_ofco_ordo_disa.png)
 
