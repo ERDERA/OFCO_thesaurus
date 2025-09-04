@@ -1,0 +1,25 @@
+PREFIX : <https://w3id.org/ofco#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ORDO: <http://www.orpha.net/ORDO/>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+PREFIX ofco: <https://w3id.org/ofco#>
+
+SELECT ?disease ?Diseaselabel ?o ?p ?uri ?code ?match
+WHERE {
+    ?disease <https://w3id.org/ofco/hasDisabilityAnnotation> ?annotation .
+    ?disease rdfs:label ?Diseaselabel.
+    ?annotation ?o ?p.
+    OPTIONAL {?p ofco:hasICFuri ?uri}.
+	OPTIONAL {
+        ?axiom a owl:Axiom ;
+               owl:annotatedProperty ofco:hasICFuri ;
+               owl:annotatedSource ?p ;
+               ofco:hasICFcode ?code ;
+			   obo:ECO_0000218 ?match .
+    } .
+    }
+    
+ORDER BY ?Diseaselabel
