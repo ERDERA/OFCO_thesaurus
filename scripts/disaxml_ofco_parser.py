@@ -11,7 +11,7 @@ import sys
 
 # Configuration
 OFCO_FILE = 'OFCO_thesaurus.owl'
-XML_FILE = 'Disability_adapted_ontology.xml'
+XML_FILE = 'Disability_Orphanet_annotations.xml'
 OUTPUT_FILE = 'Diseases_annotated_with_OFCO.owl'
 
 # XML Namespaces
