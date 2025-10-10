@@ -121,6 +121,16 @@
     
 
 
+    <!-- https://w3id.org/ofco#hasSpecificManagement -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco#hasSpecificManagement">
+        <efo:definition xml:lang="en">Boolean indicator of whether specific management is required for the disability</efo:definition>
+        <rdfs:comment xml:lang="en">Values: true or false</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- https://w3id.org/ofco#versionInfo -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco#versionInfo"/>
@@ -154,6 +164,14 @@
     <!-- https://w3id.org/ofco/hasSeverity -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasSeverity"/>
+    
+
+
+    <!-- https://w3id.org/ofco/hasSourceOfValidation -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasSourceOfValidation">
+        <efo:definition xml:lang="en">Source of validation for the disability-disorder association, including expert name and role</efo:definition>
+    </owl:AnnotationProperty>
     
 
 
@@ -1748,7 +1766,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:label xml:lang="en">environmental factors</rdfs:label>
+        <rdfs:label xml:lang="en">Environmental factors</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1141487728"/>
     </owl:Class>
     <owl:Axiom>
@@ -5847,6 +5865,30 @@
     
 
 
+    <!-- https://w3id.org/ofco/EarlyDeathCausingDisease -->
+
+    <owl:Class rdf:about="https://w3id.org/ofco/EarlyDeathCausingDisease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423914</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/NotApplicable"/>
+        <rdfs:label xml:lang="en">Early death-causing disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/ofco/FrequencyAssociation -->
 
     <owl:Class rdf:about="https://w3id.org/ofco/FrequencyAssociation">
@@ -5877,6 +5919,30 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/FrequencyAssociation"/>
         <efo:definition xml:lang="en">frequent: between 30% and 80%</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ofco/HypervariableFunctioning -->
+
+    <owl:Class rdf:about="https://w3id.org/ofco/HypervariableFunctioning">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423915</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/NotApplicable"/>
+        <rdfs:label xml:lang="en">Hypervariable functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5935,6 +6001,54 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">moderate: Activity or participation can be carried out with some technical and/or human assistance</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ofco/NotApplicable -->
+
+    <owl:Class rdf:about="https://w3id.org/ofco/NotApplicable">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423912</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <efo:definition xml:lang="en">Indicates that a particular disability assessment is not applicable to this disorder for various reasons</efo:definition>
+        <rdfs:label xml:lang="en">Not Applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ofco/NotApplicableForAnotherReason -->
+
+    <owl:Class rdf:about="https://w3id.org/ofco/NotApplicableForAnotherReason">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423916</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/NotApplicable"/>
+        <rdfs:label xml:lang="en">Not applicable for another reason</rdfs:label>
     </owl:Class>
     
 
@@ -6154,6 +6268,25 @@
         <owl:versionInfo>ICF 2025-01</owl:versionInfo>
         <hasICFcode>ICF:d5102</hasICFcode>
     </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ofco/EarlyDeathCausingDisease"/>
+            <rdf:Description rdf:about="https://w3id.org/ofco/HypervariableFunctioning"/>
+            <rdf:Description rdf:about="https://w3id.org/ofco/NotApplicableForAnotherReason"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
