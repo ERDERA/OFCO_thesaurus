@@ -3,11 +3,12 @@
 Dummy XML disabilities parser mixed with OFCO thesaurus
 Author: Marc Hanauer @Orphanet
 Converted to Python 3
-Date: 2025
+Date: 2025 (final RDF-safe version : dealing with "&" in source of validation content)
 """
 
 import xml.etree.ElementTree as ET
 import sys
+import html  # for safe XML escaping
 
 # Configuration
 OFCO_FILE = 'OFCO_thesaurus.owl'
@@ -23,6 +24,14 @@ NAMESPACES = {
     'xsd': 'http://www.w3.org/2001/XMLSchema#'
 }
 
+
+def xml_escape(text):
+    """Escape XML special characters (&, <, >, ', ")"""
+    if text is None:
+        return ""
+    return html.escape(text.strip(), quote=True)
+
+
 def convert_loss_of_ability(value):
     """Convert LossOfAbility value to proper format"""
     conversion = {
@@ -31,6 +40,7 @@ def convert_loss_of_ability(value):
         'u': 'unknown'
     }
     return conversion.get(value, 'unknown')
+
 
 def get_ontology_mappings(owl_tree):
     """Extract Thesaurus OFCO concepts (RDF parsing)"""
@@ -78,6 +88,7 @@ def get_ontology_mappings(owl_tree):
         'Disabilities': disability_mapping,
         'OrphaNumbers': orpha_number_mapping
     }
+
 
 def main():
     """Main processing function"""
@@ -134,13 +145,48 @@ def main():
                 continue
             
             orpha_code = orpha_code_elem.text
-            disorder_name = disorder_name_elem.text
+            disorder_name = xml_escape(disorder_name_elem.text)
             
             output_lines.extend([
                 '',
                 f'  <!-- Disorder: {disorder_name} (Orphanet_{orpha_code}) -->',
                 f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
             ])
+            
+            # SourceOfValidation
+            source_of_validation = relevance.find('SourceOfValidation')
+            if source_of_validation is not None and source_of_validation.text:
+                output_lines.append(
+                    f'    <ofco:hasSourceOfValidation>{xml_escape(source_of_validation.text)}</ofco:hasSourceOfValidation>'
+                )
+            
+            # SpecificManagement
+            specific_management = relevance.find('SpecificManagement')
+            if specific_management is not None and specific_management.text:
+                bool_val = 'true' if specific_management.text.lower().startswith('y') else 'false'
+                output_lines.append(
+                    f'    <ofco:hasSpecificManagement rdf:datatype="xsd:boolean">{bool_val}</ofco:hasSpecificManagement>'
+                )
+            
+            # DisabilityCategory
+            disability_category = relevance.find('DisabilityCategory')
+            if disability_category is not None:
+                orpha_number_node = disability_category.find('OrphaNumber')
+                if orpha_number_node is not None and orpha_number_node.text:
+                    orpha_number = orpha_number_node.text
+                    if orpha_number in mappings['OrphaNumbers']:
+                        category_uri = mappings['OrphaNumbers'][orpha_number]
+                        output_lines.append(f'    <ofco:hasDisabilityCategory rdf:resource="{category_uri}"/>')
+            
+            # ReasonForNotApplicable
+            reason_not_applicable = relevance.find('ReasonForNotApplicable')
+            if reason_not_applicable is not None:
+                orpha_number_node = reason_not_applicable.find('OrphaNumber')
+                if orpha_number_node is not None and orpha_number_node.text:
+                    orpha_number = orpha_number_node.text
+                    if orpha_number in mappings['OrphaNumbers']:
+                        reason_uri = mappings['OrphaNumbers'][orpha_number]
+                        output_lines.append(f'    <ofco:hasReasonForNotApplicable rdf:resource="{reason_uri}"/>')
             
             # Process disability associations
             associations = disorder.findall('DisabilityDisorderAssociationList/DisabilityDisorderAssociation')
@@ -155,7 +201,7 @@ def main():
                     if disability_name_elem is None:
                         continue
                     
-                    disability_name = disability_name_elem.text
+                    disability_name = xml_escape(disability_name_elem.text)
                     
                     output_lines.extend([
                         '',
@@ -231,6 +277,7 @@ def main():
             if i >= 20:
                 break
             print(f'\033[90m   {line.rstrip()}\033[0m')
+
 
 if __name__ == '__main__':
     main()
