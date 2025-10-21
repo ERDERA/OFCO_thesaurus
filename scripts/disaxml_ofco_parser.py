@@ -154,11 +154,11 @@ def main():
             ])
             
             # SourceOfValidation
-            source_of_validation = relevance.find('SourceOfValidation')
-            if source_of_validation is not None and source_of_validation.text:
-                output_lines.append(
-                    f'    <ofco:hasSourceOfValidation>{xml_escape(source_of_validation.text)}</ofco:hasSourceOfValidation>'
-                )
+#            source_of_validation = relevance.find('SourceOfValidation')
+#            if source_of_validation is not None and source_of_validation.text:
+#                output_lines.append(
+#                    f'    <ofco:hasSourceOfValidation>{xml_escape(source_of_validation.text)}</ofco:hasSourceOfValidation>'
+#                )
             
             # SpecificManagement
             specific_management = relevance.find('SpecificManagement')
@@ -246,14 +246,16 @@ def main():
                                 severity_uri = mappings['OrphaNumbers'][orpha_number]
                                 output_lines.append(f'      <ofco:hasSeverity rdf:resource="{severity_uri}"/>')
                     
-                    # Loss of Ability
+                    # Loss of Ability (ignore "unknown")
                     loss_of_ability = association.find('LossOfAbility')
                     if loss_of_ability is not None and loss_of_ability.text:
                         loss_value = convert_loss_of_ability(loss_of_ability.text)
+                        # Only include if true or false
                         if loss_value in ('true', 'false'):
-                            output_lines.append(f'      <ofco:lossOfAbility rdf:datatype="xsd:boolean">{loss_value}</ofco:lossOfAbility>')
-                        else:
-                            output_lines.append(f'      <ofco:lossOfAbility>{loss_value}</ofco:lossOfAbility>')
+                            output_lines.append(
+                                f'      <ofco:lossOfAbility rdf:datatype="xsd:boolean">{loss_value}</ofco:lossOfAbility>'
+                            )
+                        # Ignore "unknown" completely
                     
                     output_lines.append('    </ofco:hasDisabilityAnnotation>')
             
@@ -266,7 +268,7 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(output_lines))
     
-    print('\033[92m\o/ RDF disabilities conversion done!\033[0m')
+    print('\033[92m\\o/ RDF disabilities conversion done!\033[0m')
     print(f'\033[97m   - Diseases done: {processed_disorders}\033[0m')
     print(f'\033[97m   - Output file: {OUTPUT_FILE}\033[0m')
     
