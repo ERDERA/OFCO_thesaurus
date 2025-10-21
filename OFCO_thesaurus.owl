@@ -6161,15 +6161,6 @@
     
 
 
-    <!-- https://w3id.org/ofco/Undefined -->
-
-    <owl:Class rdf:about="https://w3id.org/ofco/Undefined">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/LossOfAbility"/>
-        <efo:definition xml:lang="en">A functional limitation is mentioned as « undefined » when the current knowledge does not enable to provide information about the extent of the consequences on daily life.</efo:definition>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/ofco/Unspecified -->
 
     <owl:Class rdf:about="https://w3id.org/ofco/Unspecified">
