@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Dummy XML disabilities parser mixed with OFCO thesaurus
+XML disabilities parser mixed with OFCO thesaurus
 Author: Marc Hanauer @Orphanet
-Converted to Python 3
-Date: 2025 (final RDF-safe version : dealing with "&" in source of validation content)
+Updated: 2025-10 (handles DisabilityCategory even when no associations)
+Option: --quiet  → hides warnings for missing DisabilityCategory mappings
 """
 
 import xml.etree.ElementTree as ET
@@ -48,37 +48,30 @@ def get_ontology_mappings(owl_tree):
     orpha_number_mapping = {}
     
     print('\033[96m Extract concepts from OFCO thesaurus...\033[0m')
-    
     root = owl_tree.getroot()
     
-    # Find all owl:Class elements
     for cls in root.findall('.//owl:Class', NAMESPACES):
         cls_about = cls.get('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about')
-        
-        if cls_about:
-            equiv = cls.find('owl:equivalentClass', NAMESPACES)
-            
-            if equiv is not None:
-                # Try to find intersectionOf first, then direct restrictions
-                intersection_of = equiv.find('.//owl:intersectionOf', NAMESPACES)
-                
-                if intersection_of is not None:
-                    restrictions = intersection_of.findall('.//owl:Restriction', NAMESPACES)
-                else:
-                    restrictions = equiv.findall('.//owl:Restriction', NAMESPACES)
-                
-                for restriction in restrictions:
-                    prop_node = restriction.find('owl:onProperty', NAMESPACES)
-                    val_node = restriction.find('owl:hasValue', NAMESPACES)
-                    
-                    if prop_node is not None and val_node is not None:
-                        prop = prop_node.get('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource')
-                        val = val_node.text
-                        
-                        if prop == 'https://w3id.org/ofco#hasORPHANETDBInternalReference':
-                            disability_mapping[val] = cls_about
-                        elif prop == 'https://w3id.org/ofco/hasORPHAnumber':
-                            orpha_number_mapping[val] = cls_about
+        if not cls_about:
+            continue
+        equiv = cls.find('owl:equivalentClass', NAMESPACES)
+        if equiv is None:
+            continue
+
+        # Find restrictions
+        intersection_of = equiv.find('.//owl:intersectionOf', NAMESPACES)
+        restrictions = intersection_of.findall('.//owl:Restriction', NAMESPACES) if intersection_of is not None else equiv.findall('.//owl:Restriction', NAMESPACES)
+
+        for restriction in restrictions:
+            prop_node = restriction.find('owl:onProperty', NAMESPACES)
+            val_node = restriction.find('owl:hasValue', NAMESPACES)
+            if prop_node is not None and val_node is not None:
+                prop = prop_node.get('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource')
+                val = val_node.text
+                if prop == 'https://w3id.org/ofco#hasORPHANETDBInternalReference':
+                    disability_mapping[val] = cls_about
+                elif prop == 'https://w3id.org/ofco/hasORPHAnumber':
+                    orpha_number_mapping[val] = cls_about
     
     print('\033[92m Mappings extracted from OFCO:\033[0m')
     print(f'\033[97m   - Disabilities: {len(disability_mapping)} entries\033[0m')
@@ -92,21 +85,19 @@ def get_ontology_mappings(owl_tree):
 
 def main():
     """Main processing function"""
+    quiet_mode = "--quiet" in sys.argv
+
     print('\033[93m Loading OFCO...\033[0m')
     
-    # Load OFCO ontology
     try:
         owl_tree = ET.parse(OFCO_FILE)
     except FileNotFoundError:
         print(f'\033[91m Error: {OFCO_FILE} not found\033[0m')
         sys.exit(1)
     
-    # Extract mappings
     mappings = get_ontology_mappings(owl_tree)
     
     print('\033[93m Loading XML dataset...\033[0m')
-    
-    # Load XML data
     try:
         xml_tree = ET.parse(XML_FILE)
         xml_root = xml_tree.getroot()
@@ -115,11 +106,8 @@ def main():
         sys.exit(1)
     
     print('\033[93m RDF generation...\033[0m')
-    
-    # Build RDF output
     output_lines = []
     
-    # RDF/XML headers
     output_lines.extend([
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rdf:RDF',
@@ -133,138 +121,112 @@ def main():
     
     processed_disorders = 0
     
-    # Parse DisorderDisabilityRelevance elements
     for relevance in xml_root.findall('.//DisorderDisabilityRelevance'):
         disorder = relevance.find('Disorder')
+        if disorder is None:
+            continue
         
-        if disorder is not None:
-            orpha_code_elem = disorder.find('OrphaCode')
-            disorder_name_elem = disorder.find("Name[@lang='en']")
-            
-            if orpha_code_elem is None or disorder_name_elem is None:
+        orpha_code_elem = disorder.find('OrphaCode')
+        disorder_name_elem = disorder.find("Name[@lang='en']")
+        if orpha_code_elem is None or disorder_name_elem is None:
+            continue
+        
+        orpha_code = orpha_code_elem.text
+        disorder_name = xml_escape(disorder_name_elem.text)
+        
+        output_lines.extend([
+            '',
+            f'  <!-- Disorder: {disorder_name} (Orphanet_{orpha_code}) -->',
+            f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
+        ])
+        
+        specific_management = relevance.find('SpecificManagement')
+        if specific_management is not None and specific_management.text:
+            bool_val = 'true' if specific_management.text.lower().startswith('y') else 'false'
+            output_lines.append(
+                f'    <ofco:hasSpecificManagement rdf:datatype="xsd:boolean">{bool_val}</ofco:hasSpecificManagement>'
+            )
+        
+        # DisabilityCategory (always include if mapped)
+        disability_category = relevance.find('DisabilityCategory')
+        if disability_category is not None:
+            orpha_number_node = disability_category.find('OrphaNumber')
+            name_node = disability_category.find("Name[@lang='en']")
+            if orpha_number_node is not None and orpha_number_node.text:
+                orpha_number = orpha_number_node.text.strip()
+                category_uri = mappings['OrphaNumbers'].get(orpha_number)
+                if category_uri:
+                    output_lines.extend([
+                        f'    <!-- Disability category: {xml_escape(name_node.text) if name_node is not None else orpha_number} -->',
+                        f'    <ofco:hasDisabilityCategory rdf:resource="{category_uri}"/>'
+                    ])
+                elif not quiet_mode:
+                    print(f'\033[93m Warning: DisabilityCategory OrphaNumber {orpha_number} not found in ontology\033[0m')
+        
+        # ReasonForNotApplicable
+        reason_not_applicable = relevance.find('ReasonForNotApplicable')
+        if reason_not_applicable is not None:
+            orpha_number_node = reason_not_applicable.find('OrphaNumber')
+            if orpha_number_node is not None and orpha_number_node.text:
+                orpha_number = orpha_number_node.text
+                if orpha_number in mappings['OrphaNumbers']:
+                    reason_uri = mappings['OrphaNumbers'][orpha_number]
+                    output_lines.append(f'    <ofco:hasReasonForNotApplicable rdf:resource="{reason_uri}"/>')
+        
+        # DisabilityDisorderAssociationList
+        associations = disorder.findall('DisabilityDisorderAssociationList/DisabilityDisorderAssociation')
+        for association in associations:
+            disability = association.find('Disability')
+            if disability is None:
                 continue
-            
-            orpha_code = orpha_code_elem.text
-            disorder_name = xml_escape(disorder_name_elem.text)
+            disability_id = disability.get('id')
+            disability_name_elem = disability.find("Name[@lang='en']")
+            if disability_name_elem is None:
+                continue
+            disability_name = xml_escape(disability_name_elem.text)
             
             output_lines.extend([
                 '',
-                f'  <!-- Disorder: {disorder_name} (Orphanet_{orpha_code}) -->',
-                f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
+                f'    <!-- Disability: {disability_name} -->',
+                '    <ofco:hasDisabilityAnnotation rdf:parseType="Resource">'
             ])
             
-            # SourceOfValidation
-#            source_of_validation = relevance.find('SourceOfValidation')
-#            if source_of_validation is not None and source_of_validation.text:
-#                output_lines.append(
-#                    f'    <ofco:hasSourceOfValidation>{xml_escape(source_of_validation.text)}</ofco:hasSourceOfValidation>'
-#                )
+            if disability_id in mappings['Disabilities']:
+                disability_uri = mappings['Disabilities'][disability_id]
+                output_lines.append(f'      <ofco:concernsDisability rdf:resource="{disability_uri}"/>')
+            else:
+                print(f'\033[93m  Disability ID {disability_id} not found in ontology\033[0m')
             
-            # SpecificManagement
-            specific_management = relevance.find('SpecificManagement')
-            if specific_management is not None and specific_management.text:
-                bool_val = 'true' if specific_management.text.lower().startswith('y') else 'false'
-                output_lines.append(
-                    f'    <ofco:hasSpecificManagement rdf:datatype="xsd:boolean">{bool_val}</ofco:hasSpecificManagement>'
-                )
+            # Frequency / Temporality / Severity / LossOfAbility
+            for tag, predicate in [
+                ('FrequenceDisability', 'hasFrequency'),
+                ('TemporalityDisability', 'hasTemporality'),
+                ('SeverityDisability', 'hasSeverity')
+            ]:
+                elem = association.find(tag)
+                if elem is not None and len(elem) > 0:
+                    orpha_number_node = elem.find('OrphaNumber')
+                    if orpha_number_node is not None and orpha_number_node.text:
+                        orpha_number = orpha_number_node.text
+                        if orpha_number in mappings['OrphaNumbers']:
+                            uri = mappings['OrphaNumbers'][orpha_number]
+                            output_lines.append(f'      <ofco:{predicate} rdf:resource="{uri}"/>')
             
-            # DisabilityCategory
-            disability_category = relevance.find('DisabilityCategory')
-            if disability_category is not None:
-                orpha_number_node = disability_category.find('OrphaNumber')
-                if orpha_number_node is not None and orpha_number_node.text:
-                    orpha_number = orpha_number_node.text
-                    if orpha_number in mappings['OrphaNumbers']:
-                        category_uri = mappings['OrphaNumbers'][orpha_number]
-                        output_lines.append(f'    <ofco:hasDisabilityCategory rdf:resource="{category_uri}"/>')
+            loss_of_ability = association.find('LossOfAbility')
+            if loss_of_ability is not None and loss_of_ability.text:
+                loss_value = convert_loss_of_ability(loss_of_ability.text)
+                if loss_value in ('true', 'false'):
+                    output_lines.append(
+                        f'      <ofco:lossOfAbility rdf:datatype="xsd:boolean">{loss_value}</ofco:lossOfAbility>'
+                    )
             
-            # ReasonForNotApplicable
-            reason_not_applicable = relevance.find('ReasonForNotApplicable')
-            if reason_not_applicable is not None:
-                orpha_number_node = reason_not_applicable.find('OrphaNumber')
-                if orpha_number_node is not None and orpha_number_node.text:
-                    orpha_number = orpha_number_node.text
-                    if orpha_number in mappings['OrphaNumbers']:
-                        reason_uri = mappings['OrphaNumbers'][orpha_number]
-                        output_lines.append(f'    <ofco:hasReasonForNotApplicable rdf:resource="{reason_uri}"/>')
-            
-            # Process disability associations
-            associations = disorder.findall('DisabilityDisorderAssociationList/DisabilityDisorderAssociation')
-            
-            for association in associations:
-                disability = association.find('Disability')
-                
-                if disability is not None:
-                    disability_id = disability.get('id')
-                    disability_name_elem = disability.find("Name[@lang='en']")
-                    
-                    if disability_name_elem is None:
-                        continue
-                    
-                    disability_name = xml_escape(disability_name_elem.text)
-                    
-                    output_lines.extend([
-                        '',
-                        f'    <!-- Disability: {disability_name} -->',
-                        '    <ofco:hasDisabilityAnnotation rdf:parseType="Resource">'
-                    ])
-                    
-                    # Add disability URI if found in mappings
-                    if disability_id in mappings['Disabilities']:
-                        disability_uri = mappings['Disabilities'][disability_id]
-                        output_lines.append(f'      <ofco:concernsDisability rdf:resource="{disability_uri}"/>')
-                    else:
-                        print(f'\033[93m  Disability ID {disability_id} not found in ontology\033[0m')
-                    
-                    # Frequency
-                    frequency = association.find('FrequenceDisability')
-                    if frequency is not None and len(frequency) > 0:
-                        orpha_number_node = frequency.find('OrphaNumber')
-                        if orpha_number_node is not None and orpha_number_node.text:
-                            orpha_number = orpha_number_node.text
-                            if orpha_number in mappings['OrphaNumbers']:
-                                frequency_uri = mappings['OrphaNumbers'][orpha_number]
-                                output_lines.append(f'      <ofco:hasFrequency rdf:resource="{frequency_uri}"/>')
-                    
-                    # Temporality
-                    temporality = association.find('TemporalityDisability')
-                    if temporality is not None and len(temporality) > 0:
-                        orpha_number_node = temporality.find('OrphaNumber')
-                        if orpha_number_node is not None and orpha_number_node.text:
-                            orpha_number = orpha_number_node.text
-                            if orpha_number in mappings['OrphaNumbers']:
-                                temporality_uri = mappings['OrphaNumbers'][orpha_number]
-                                output_lines.append(f'      <ofco:hasTemporality rdf:resource="{temporality_uri}"/>')
-                    
-                    # Severity
-                    severity = association.find('SeverityDisability')
-                    if severity is not None and len(severity) > 0:
-                        orpha_number_node = severity.find('OrphaNumber')
-                        if orpha_number_node is not None and orpha_number_node.text:
-                            orpha_number = orpha_number_node.text
-                            if orpha_number in mappings['OrphaNumbers']:
-                                severity_uri = mappings['OrphaNumbers'][orpha_number]
-                                output_lines.append(f'      <ofco:hasSeverity rdf:resource="{severity_uri}"/>')
-                    
-                    # Loss of Ability (ignore "unknown")
-                    loss_of_ability = association.find('LossOfAbility')
-                    if loss_of_ability is not None and loss_of_ability.text:
-                        loss_value = convert_loss_of_ability(loss_of_ability.text)
-                        # Only include if true or false
-                        if loss_value in ('true', 'false'):
-                            output_lines.append(
-                                f'      <ofco:lossOfAbility rdf:datatype="xsd:boolean">{loss_value}</ofco:lossOfAbility>'
-                            )
-                        # Ignore "unknown" completely
-                    
-                    output_lines.append('    </ofco:hasDisabilityAnnotation>')
-            
-            output_lines.append('  </owl:Class>')
-            processed_disorders += 1
+            output_lines.append('    </ofco:hasDisabilityAnnotation>')
+        
+        output_lines.append('  </owl:Class>')
+        processed_disorders += 1
     
     output_lines.extend(['', '</rdf:RDF>'])
     
-    # Write output file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(output_lines))
     
@@ -272,7 +234,6 @@ def main():
     print(f'\033[97m   - Diseases done: {processed_disorders}\033[0m')
     print(f'\033[97m   - Output file: {OUTPUT_FILE}\033[0m')
     
-    # Display sample results
     print('\033[96m Show results (first few lines):\033[0m')
     with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):

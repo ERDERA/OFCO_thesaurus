@@ -21,7 +21,7 @@
         <dc:creator>Rami Nadji</dc:creator>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T17:00:00</terms:created>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <versionInfo>0.1</versionInfo>
+        <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</versionInfo>
     </owl:Ontology>
     
 
@@ -6001,6 +6001,30 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">moderate: Activity or participation can be carried out with some technical and/or human assistance</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ofco/NoFunctionalDisability -->
+
+    <owl:Class rdf:about="https://w3id.org/ofco/NoFunctionalDisability">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423913</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/ofco/hasORPHAnumber"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <efo:definition xml:lang="en">This disease is usually not associated with any of the functional difficulties (activity limitations and/or participation restrictions) listed in the Orphanet Functioning Thesaurus, when the patient receives optimal standard care and management (specific and/or symptomatic management, prevention and prophylaxis, devices and aids, care and support)</efo:definition>
+        <rdfs:label xml:lang="en">No functional disability</rdfs:label>
     </owl:Class>
     
 
