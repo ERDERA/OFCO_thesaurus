@@ -1,0 +1,19 @@
+# Agregate by frequency and temporality
+
+PREFIX ofco: <https://w3id.org/ofco#>
+PREFIX ofcov: <https://w3id.org/ofco/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?frequency ?temporality (COUNT(?annotation) as ?count)
+WHERE {
+  ?disorder ofcov:hasDisabilityAnnotation ?annotation .
+  ?annotation a ofcov:DisabilityDisorderAssociation ;
+              ofcov:hasFrequency ?frequency ;
+              ofcov:hasTemporality ?temporality ;
+              ofcov:concernsDisability ?disability .
+  
+  # only for "Interpersonal Skills"
+  ?disability rdfs:subClassOf* ofco:InterpersonalSkills .
+}
+GROUP BY ?frequency ?temporality
+ORDER BY DESC(?count)
