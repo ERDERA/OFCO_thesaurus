@@ -2,7 +2,7 @@
 """
 XML disabilities parser mixed with OFCO thesaurus
 Author: Marc Hanauer @Orphanet
-Updated: 2025-10 (handles DisabilityCategory even when no associations)
+Updated: 2025-11 (uses blank nodes with rdf:type for associations)
 Option: --quiet  → hides warnings for missing DisabilityCategory mappings
 """
 
@@ -34,11 +34,7 @@ def xml_escape(text):
 
 def convert_loss_of_ability(value):
     """Convert LossOfAbility value to proper format"""
-    conversion = {
-        'y': 'true',
-        'n': 'false',
-        'u': 'unknown'
-    }
+    conversion = {'y': 'true', 'n': 'false', 'u': 'unknown'}
     return conversion.get(value, 'unknown')
 
 
@@ -58,7 +54,6 @@ def get_ontology_mappings(owl_tree):
         if equiv is None:
             continue
 
-        # Find restrictions
         intersection_of = equiv.find('.//owl:intersectionOf', NAMESPACES)
         restrictions = intersection_of.findall('.//owl:Restriction', NAMESPACES) if intersection_of is not None else equiv.findall('.//owl:Restriction', NAMESPACES)
 
@@ -113,6 +108,7 @@ def main():
         '<rdf:RDF',
         '    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"',
         '    xmlns:owl="http://www.w3.org/2002/07/owl#"',
+        '    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"',
         '    xmlns:ordo="http://www.orpha.net/ORDO/"',
         '    xmlns:ofco="https://w3id.org/ofco/"',
         '    xmlns:icf="http://id.who.int/icf/"',
@@ -140,6 +136,7 @@ def main():
             f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
         ])
         
+        # hasSpecificManagement stays on the disorder
         specific_management = relevance.find('SpecificManagement')
         if specific_management is not None and specific_management.text:
             bool_val = 'true' if specific_management.text.lower().startswith('y') else 'false'
@@ -163,17 +160,7 @@ def main():
                 elif not quiet_mode:
                     print(f'\033[93m Warning: DisabilityCategory OrphaNumber {orpha_number} not found in ontology\033[0m')
         
-        # ReasonForNotApplicable
-        reason_not_applicable = relevance.find('ReasonForNotApplicable')
-        if reason_not_applicable is not None:
-            orpha_number_node = reason_not_applicable.find('OrphaNumber')
-            if orpha_number_node is not None and orpha_number_node.text:
-                orpha_number = orpha_number_node.text
-                if orpha_number in mappings['OrphaNumbers']:
-                    reason_uri = mappings['OrphaNumbers'][orpha_number]
-                    output_lines.append(f'    <ofco:hasReasonForNotApplicable rdf:resource="{reason_uri}"/>')
-        
-        # DisabilityDisorderAssociationList
+        # DisabilityDisorderAssociationList - using blank nodes
         associations = disorder.findall('DisabilityDisorderAssociationList/DisabilityDisorderAssociation')
         for association in associations:
             disability = association.find('Disability')
@@ -188,16 +175,19 @@ def main():
             output_lines.extend([
                 '',
                 f'    <!-- Disability: {disability_name} -->',
-                '    <ofco:hasDisabilityAnnotation rdf:parseType="Resource">'
+                '    <ofco:hasDisabilityAnnotation rdf:parseType="Resource">',
+                '      <rdf:type rdf:resource="https://w3id.org/ofco/DisabilityDisorderAssociation"/>'
             ])
             
+            # Check disability URI
             if disability_id in mappings['Disabilities']:
                 disability_uri = mappings['Disabilities'][disability_id]
                 output_lines.append(f'      <ofco:concernsDisability rdf:resource="{disability_uri}"/>')
             else:
-                print(f'\033[93m  Disability ID {disability_id} not found in ontology\033[0m')
+                if not quiet_mode:
+                    print(f'\033[93m  Disability ID {disability_id} not found in ontology\033[0m')
             
-            # Frequency / Temporality / Severity / LossOfAbility
+            # Frequency / Temporality / Severity
             for tag, predicate in [
                 ('FrequenceDisability', 'hasFrequency'),
                 ('TemporalityDisability', 'hasTemporality'),
@@ -212,6 +202,7 @@ def main():
                             uri = mappings['OrphaNumbers'][orpha_number]
                             output_lines.append(f'      <ofco:{predicate} rdf:resource="{uri}"/>')
             
+            # LossOfAbility
             loss_of_ability = association.find('LossOfAbility')
             if loss_of_ability is not None and loss_of_ability.text:
                 loss_value = convert_loss_of_ability(loss_of_ability.text)
@@ -231,15 +222,8 @@ def main():
         f.write('\n'.join(output_lines))
     
     print('\033[92m\\o/ RDF disabilities conversion done!\033[0m')
-    print(f'\033[97m   - Diseases done: {processed_disorders}\033[0m')
+    print(f'\033[97m   - Diseases processed: {processed_disorders}\033[0m')
     print(f'\033[97m   - Output file: {OUTPUT_FILE}\033[0m')
-    
-    print('\033[96m Show results (first few lines):\033[0m')
-    with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
-        for i, line in enumerate(f):
-            if i >= 20:
-                break
-            print(f'\033[90m   {line.rstrip()}\033[0m')
 
 
 if __name__ == '__main__':
