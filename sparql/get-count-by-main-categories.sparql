@@ -1,14 +1,13 @@
 # count by main disability categories
 
-PREFIX ofco: <https://w3id.org/ofco#>
-PREFIX ofcov: <https://w3id.org/ofco/>
+PREFIX ofco: <https://w3id.org/ofco/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?topCategory ?categoryLabel (COUNT(DISTINCT ?disorder) as ?diseaseCount)
 WHERE {
-  ?disorder ofcov:hasDisabilityAnnotation ?annotation .
-  ?annotation a ofcov:DisabilityDisorderAssociation ;
-              ofcov:concernsDisability ?disability .
+  ?disorder ofco:hasDisabilityAnnotation ?annotation .
+  ?annotation a ofco:DisabilityDisorderAssociation ;
+              ofco:concernsDisability ?disability .
   
   # get up to main categories (direct subclasses of ActivitiesAndParticipation)
   ?disability rdfs:subClassOf+ ?topCategory .
