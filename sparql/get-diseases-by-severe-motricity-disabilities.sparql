@@ -1,15 +1,14 @@
 # diseases by severe motricity disabilities
 
 PREFIX ofco: <https://w3id.org/ofco#>
-PREFIX ofcov: <https://w3id.org/ofco/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?disorder ?disability ?disabilityLabel
 WHERE {
-  ?disorder ofcov:hasDisabilityAnnotation ?annotation .
-  ?annotation a ofcov:DisabilityDisorderAssociation ;
-              ofcov:concernsDisability ?disability ;
-              ofcov:hasSeverity ofcov:Severe .
+  ?disorder ofco:hasDisabilityAnnotation ?annotation .
+  ?annotation a ofco:DisabilityDisorderAssociation ;
+              ofco:concernsDisability ?disability ;
+              ofco:hasSeverity ofcov:Severe .
   
   # Filter by hierarchy : Motor Skills and subclasses
   ?disability rdfs:subClassOf* ofco:MotorSkills .
