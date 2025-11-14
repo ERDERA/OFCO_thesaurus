@@ -8,7 +8,7 @@ WHERE {
   ?disorder ofco:hasDisabilityAnnotation ?annotation .
   ?annotation a ofco:DisabilityDisorderAssociation ;
               ofco:concernsDisability ?disability ;
-              ofco:hasSeverity ofcov:Severe .
+              ofco:hasSeverity ofco:Severe .
   
   # Filter by hierarchy : Motor Skills and subclasses
   ?disability rdfs:subClassOf* ofco:MotorSkills .
