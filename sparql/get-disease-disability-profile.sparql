@@ -5,7 +5,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX ORDO: <http://www.orpha.net/ORDO/>
 PREFIX ordo: <http://www.orpha.net/ORDO/>
-PREFIX ofco: <https://w3id.org/ofco#>
+PREFIX ofco: <https://w3id.org/ofco/>
 
 SELECT ?Diseaselabel ?o ?p ?uri ?code ?match
 WHERE {
