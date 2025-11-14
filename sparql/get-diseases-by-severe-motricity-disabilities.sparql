@@ -3,7 +3,7 @@
 PREFIX ofco: <https://w3id.org/ofco/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?disorder ?disability ?disabilityLabel
+SELECT SELECT ?disorder ("MotorSkills" AS ?MainSearchedCategory) ?disabilityLabel
 WHERE {
   ?disorder ofco:hasDisabilityAnnotation ?annotation .
   ?annotation a ofco:DisabilityDisorderAssociation ;
