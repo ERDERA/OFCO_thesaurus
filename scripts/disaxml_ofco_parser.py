@@ -63,7 +63,7 @@ def get_ontology_mappings(owl_tree):
             if prop_node is not None and val_node is not None:
                 prop = prop_node.get('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource')
                 val = val_node.text
-                if prop == 'https://w3id.org/ofco#hasORPHANETDBInternalReference':
+                if prop == 'https://w3id.org/ofco/hasORPHANETDBInternalReference':
                     disability_mapping[val] = cls_about
                 elif prop == 'https://w3id.org/ofco/hasORPHAnumber':
                     orpha_number_mapping[val] = cls_about
