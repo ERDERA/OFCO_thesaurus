@@ -1,7 +1,9 @@
+# better to load also ORDO owl in the triple store
+
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX ordo: <http://www.orpha.net/ORDO/>
-PREFIX ofco: <https://w3id.org/ofco#>
+PREFIX ofco: <https://w3id.org/ofco/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?ordo ?label ?labeldisa ?code ?match
