@@ -1,3 +1,5 @@
+# need to load also ORDO owl in the triple store
+
 PREFIX : <https://w3id.org/ofco#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
