@@ -140,7 +140,7 @@
     <!-- https://w3id.org/ofco/concernsDisability -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/concernsDisability">
-        <efo:definition>thesaurus term used to annotate a disease</efo:definition>
+        <efo:definition>Thesaurus term used to annotate a disease</efo:definition>
     </owl:AnnotationProperty>
     
 
@@ -156,7 +156,7 @@
     <!-- https://w3id.org/ofco/hasFrequency -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasFrequency">
-        <efo:definition>frequency of a disability in a given population</efo:definition>
+        <efo:definition>Frequency of a disability in a given population</efo:definition>
     </owl:AnnotationProperty>
     
 
@@ -270,7 +270,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Light"/>
-        <rdfs:label>light intensity</rdfs:label>
+        <rdfs:label>Light intensity</rdfs:label>
     </owl:Class>
     
 
@@ -294,7 +294,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Light"/>
-        <rdfs:label>light quality</rdfs:label>
+        <rdfs:label>Light quality</rdfs:label>
     </owl:Class>
     
 
@@ -318,7 +318,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Education"/>
-        <rdfs:label xml:lang="en">accessing higher education</rdfs:label>
+        <rdfs:label xml:lang="en">Accessing higher education</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1367471462"/>
     </owl:Class>
     <owl:Axiom>
@@ -351,7 +351,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Learning"/>
-        <rdfs:label xml:lang="en">acquiring language</rdfs:label>
+        <rdfs:label xml:lang="en">Acquiring language</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1063388010"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/288541418"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/675964842"/>
@@ -441,7 +441,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/EnvironmentalFactors"/>
-        <rdfs:label xml:lang="en">air quality</rdfs:label>
+        <rdfs:label xml:lang="en">Air quality</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/126577200"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/359537409"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/38174657"/>
@@ -489,7 +489,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Understanding"/>
-        <rdfs:label xml:lang="en">applying knowledge</rdfs:label>
+        <rdfs:label xml:lang="en">Applying knowledge</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1014916094"/>
     </owl:Class>
     <owl:Axiom>
@@ -577,7 +577,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Education"/>
-        <rdfs:label xml:lang="en">attending preschool</rdfs:label>
+        <rdfs:label xml:lang="en">Attending preschool</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1020014935"/>
     </owl:Class>
     <owl:Axiom>
@@ -610,7 +610,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/OrientingOneself"/>
-        <rdfs:label xml:lang="en">being aware of space</rdfs:label>
+        <rdfs:label xml:lang="en">Being aware of space</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1341571943"/>
     </owl:Class>
     <owl:Axiom>
@@ -643,7 +643,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/OrientingOneself"/>
-        <rdfs:label xml:lang="en">being aware of time</rdfs:label>
+        <rdfs:label xml:lang="en">Being aware of time</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/324489319"/>
     </owl:Class>
     <owl:Axiom>
@@ -676,7 +676,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ChangingBodyPosition"/>
-        <rdfs:label xml:lang="en">bending</rdfs:label>
+        <rdfs:label xml:lang="en">Bending</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1074234719"/>
     </owl:Class>
     <owl:Axiom>
@@ -709,7 +709,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ApplyingKnowledge"/>
-        <rdfs:label xml:lang="en">calculating</rdfs:label>
+        <rdfs:label xml:lang="en">Calculating</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1528616558%20"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/368481720"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/48165240"/>
@@ -751,7 +751,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
         <efo:definition xml:lang="en">(skin, teeht, nails, hair, genitals)</efo:definition>
-        <rdfs:label xml:lang="en">caring for body parts</rdfs:label>
+        <rdfs:label xml:lang="en">Caring for body parts</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1055600838"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/127114630"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1276799558"/>
@@ -847,7 +847,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">carrying out administrative procedures</rdfs:label>
+        <rdfs:label xml:lang="en">Carrying out administrative procedures</rdfs:label>
     </owl:Class>
     
 
@@ -871,7 +871,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/LifeManagement"/>
-        <rdfs:label xml:lang="en">carrying out daily routines</rdfs:label>
+        <rdfs:label xml:lang="en">Carrying out daily routines</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1205445822"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2018794819"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/206590846"/>
@@ -940,7 +940,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MotorSkills"/>
-        <rdfs:label xml:lang="en">changing body position</rdfs:label>
+        <rdfs:label xml:lang="en">Changing body position</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1119392889"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/150502901"/>
     </owl:Class>
@@ -982,7 +982,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/EnvironmentalFactors"/>
-        <rdfs:label xml:lang="en">climate</rdfs:label>
+        <rdfs:label xml:lang="en">Climate</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/621020081"/>
     </owl:Class>
     <owl:Axiom>
@@ -1015,7 +1015,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Understanding"/>
-        <rdfs:label xml:lang="en">cognitive abilities</rdfs:label>
+        <rdfs:label xml:lang="en">Cognitive abilities</rdfs:label>
     </owl:Class>
     
 
@@ -1039,7 +1039,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">communicating with others</rdfs:label>
+        <rdfs:label xml:lang="en">Communicating with others</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1828012543"/>
     </owl:Class>
     <owl:Axiom>
@@ -1119,7 +1119,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Household"/>
-        <rdfs:label xml:lang="en">cooking, preparing meals</rdfs:label>
+        <rdfs:label xml:lang="en">Cooking, preparing meals</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/176662282"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/498058186"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/871682135"/>
@@ -1170,7 +1170,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">daily activities</rdfs:label>
+        <rdfs:label xml:lang="en">Daily activities</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1535125568"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/524305529"/>
     </owl:Class>
@@ -1210,7 +1210,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/TimeRelatedChanges"/>
-        <rdfs:label xml:lang="en">day and night cycles</rdfs:label>
+        <rdfs:label xml:lang="en">Day and night cycles</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/402150632"/>
     </owl:Class>
     <owl:Axiom>
@@ -1243,7 +1243,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/InterpersonalSkills"/>
-        <rdfs:label xml:lang="en">dealing with strangers</rdfs:label>
+        <rdfs:label xml:lang="en">Dealing with strangers</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/327373045"/>
     </owl:Class>
     <owl:Axiom>
@@ -1276,7 +1276,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Household"/>
-        <rdfs:label xml:lang="en">doing housework</rdfs:label>
+        <rdfs:label xml:lang="en">Doing housework</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1394299422"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1714607124"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1897574612"/>
@@ -1363,7 +1363,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
-        <rdfs:label xml:lang="en">dressing undressing</rdfs:label>
+        <rdfs:label xml:lang="en">Dressing undressing</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1693242165"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1860600370"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/20311413"/>
@@ -1441,7 +1441,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
-        <rdfs:label xml:lang="en">drinking</rdfs:label>
+        <rdfs:label xml:lang="en">Drinking</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/553784299"/>
     </owl:Class>
     <owl:Axiom>
@@ -1474,7 +1474,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MovingAroundUsingTransportation"/>
-        <rdfs:label xml:lang="en">driving</rdfs:label>
+        <rdfs:label xml:lang="en">Driving</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/213067675"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/232546858"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/596421546"/>
@@ -1534,7 +1534,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
-        <rdfs:label xml:lang="en">eating</rdfs:label>
+        <rdfs:label xml:lang="en">Eating</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1328675264"/>
     </owl:Class>
     <owl:Axiom>
@@ -1650,7 +1650,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">engaging in paid work in standard environment</rdfs:label>
+        <rdfs:label xml:lang="en">Engaging in paid work in standard environment</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1028299805"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1992737508"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/70398301"/>
@@ -1710,7 +1710,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">engaging in paid work in supported, sheltered environment</rdfs:label>
+        <rdfs:label xml:lang="en">Engaging in paid work in supported, sheltered environment</rdfs:label>
     </owl:Class>
     
 
@@ -1734,7 +1734,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/InterpersonalSkills"/>
-        <rdfs:label xml:lang="en">engaging in sexual relationships</rdfs:label>
+        <rdfs:label xml:lang="en">Engaging in sexual relationships</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/417227145"/>
     </owl:Class>
     <owl:Axiom>
@@ -1798,7 +1798,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SleepingBeingAwake"/>
-        <rdfs:label xml:lang="en">falling asleep</rdfs:label>
+        <rdfs:label xml:lang="en">Falling asleep</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/288718794"/>
     </owl:Class>
     <owl:Axiom>
@@ -1831,7 +1831,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CognitiveAbilities"/>
-        <rdfs:label xml:lang="en">focusing attention</rdfs:label>
+        <rdfs:label xml:lang="en">Focusing attention</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1022925808"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/194413877"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/735117104"/>
@@ -1882,7 +1882,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/EnvironmentalFactors"/>
-        <rdfs:label xml:lang="en">food</rdfs:label>
+        <rdfs:label xml:lang="en">Food</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/814520574"/>
     </owl:Class>
     <owl:Axiom>
@@ -1915,7 +1915,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SleepingBeingAwake"/>
-        <rdfs:label xml:lang="en">getting a good quality sleep</rdfs:label>
+        <rdfs:label xml:lang="en">Getting a good quality sleep</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1063630410"/>
     </owl:Class>
     <owl:Axiom>
@@ -1948,7 +1948,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/TemperamentAndBehaviour"/>
-        <rdfs:label xml:lang="en">handling emotions and mood</rdfs:label>
+        <rdfs:label xml:lang="en">Handling emotions and mood</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1481745047"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1630080983"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1979804439"/>
@@ -2008,7 +2008,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">handling money, managing one’s own budget</rdfs:label>
+        <rdfs:label xml:lang="en">Handling money, managing one’s own budget</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1059632050"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/671143794"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/948398905"/>
@@ -2060,7 +2060,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/TemperamentAndBehaviour"/>
         <efo:definition xml:lang="en">Handling stress, responsabilities, emergencies and ensuring one’s safety</efo:definition>
-        <rdfs:label xml:lang="en">handling stress</rdfs:label>
+        <rdfs:label xml:lang="en">Handling stress</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1011135336"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/303332072"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/639612322"/>
@@ -2120,7 +2120,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Understanding"/>
-        <rdfs:label xml:lang="en">hearing, listening</rdfs:label>
+        <rdfs:label xml:lang="en">Hearing, listening</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1896301954"/>
     </owl:Class>
     <owl:Axiom>
@@ -2153,7 +2153,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/DailyActivities"/>
-        <rdfs:label xml:lang="en">household</rdfs:label>
+        <rdfs:label xml:lang="en">Household</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1452836727"/>
     </owl:Class>
     <owl:Axiom>
@@ -2185,7 +2185,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Climate"/>
-        <rdfs:label xml:lang="en">humidity</rdfs:label>
+        <rdfs:label xml:lang="en">Humidity</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1057942937"/>
     </owl:Class>
     <owl:Axiom>
@@ -2218,7 +2218,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/InterpersonalSkills"/>
-        <rdfs:label xml:lang="en">interacting with other people</rdfs:label>
+        <rdfs:label xml:lang="en">Interacting with other people</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1031850752"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1121550968"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1441916600"/>
@@ -2376,7 +2376,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">interpersonal skills</rdfs:label>
+        <rdfs:label xml:lang="en">Interpersonal skills</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/982325691"/>
     </owl:Class>
     <owl:Axiom>
@@ -2408,7 +2408,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Understanding"/>
-        <rdfs:label xml:lang="en">learning</rdfs:label>
+        <rdfs:label xml:lang="en">Learning</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://w3id.org/ofco/Learning"/>
@@ -2499,7 +2499,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Learning"/>
-        <rdfs:label xml:lang="en">learning to calculate</rdfs:label>
+        <rdfs:label xml:lang="en">Learning to calculate</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/136848552"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1401433117"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/645459240"/>
@@ -2559,7 +2559,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Learning"/>
-        <rdfs:label xml:lang="en">learning to read</rdfs:label>
+        <rdfs:label xml:lang="en">Learning to read</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1050326081"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/281705921"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/699584641"/>
@@ -2619,7 +2619,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Learning"/>
-        <rdfs:label xml:lang="en">learning to write</rdfs:label>
+        <rdfs:label xml:lang="en">Learning to write</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1047450631"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/118913351"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1725645062"/>
@@ -2679,7 +2679,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/DailyActivities"/>
-        <rdfs:label xml:lang="en">life management</rdfs:label>
+        <rdfs:label xml:lang="en">Life management</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1228414013"/>
     </owl:Class>
     <owl:Axiom>
@@ -2798,7 +2798,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/EnvironmentalFactors"/>
-        <rdfs:label xml:lang="en">light</rdfs:label>
+        <rdfs:label xml:lang="en">Light</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/558848479"/>
     </owl:Class>
     <owl:Axiom>
@@ -2831,7 +2831,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Household"/>
-        <rdfs:label xml:lang="en">looking after, helping others</rdfs:label>
+        <rdfs:label xml:lang="en">Looking after, helping others</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1300951288"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1683028925"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1937284989"/>
@@ -2918,7 +2918,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MotorSkills"/>
-        <rdfs:label xml:lang="en">maintaining body position</rdfs:label>
+        <rdfs:label xml:lang="en">Maintaining body position</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1131514421"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/192549593"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/475166233"/>
@@ -2987,7 +2987,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/InterpersonalSkills"/>
-        <rdfs:label xml:lang="en">maintaining family relationships</rdfs:label>
+        <rdfs:label xml:lang="en">Maintaining family relationships</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/387210274"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/3946722"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/778891618"/>
@@ -3056,7 +3056,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MaintainingBodyPosition"/>
-        <rdfs:label xml:lang="en">maintaining head position</rdfs:label>
+        <rdfs:label xml:lang="en">Maintaining head position</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1474003417"/>
     </owl:Class>
     <owl:Axiom>
@@ -3089,7 +3089,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MaintainingBodyPosition"/>
-        <rdfs:label xml:lang="en">maintaining a standing position</rdfs:label>
+        <rdfs:label xml:lang="en">Maintaining a standing position</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/485719194"/>
     </owl:Class>
     <owl:Axiom>
@@ -3182,7 +3182,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/InterpersonalSkills"/>
-        <rdfs:label xml:lang="en">making, keeping friends</rdfs:label>
+        <rdfs:label xml:lang="en">Making, keeping friends</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/600105830"/>
     </owl:Class>
     <owl:Axiom>
@@ -3216,7 +3216,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
         <efo:definition xml:lang="en">(diet, medications, prevention, needs, assistance, monitoring)</efo:definition>
-        <rdfs:label xml:lang="en">managing one&apos;s health</rdfs:label>
+        <rdfs:label xml:lang="en">Managing one&apos;s health</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1398348540"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/464886707"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/583874291"/>
@@ -3276,7 +3276,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CognitiveAbilities"/>
-        <rdfs:label xml:lang="en">memorizing and retrieving</rdfs:label>
+        <rdfs:label xml:lang="en">Memorizing and retrieving</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1920216617"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/408498832"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/906623760"/>
@@ -3327,7 +3327,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">motor skills</rdfs:label>
+        <rdfs:label xml:lang="en">Motor skills</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2048203604"/>
     </owl:Class>
     <owl:Axiom>
@@ -3359,7 +3359,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">moving around</rdfs:label>
+        <rdfs:label xml:lang="en">Moving around</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1690270390"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/971000452"/>
     </owl:Class>
@@ -3400,7 +3400,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MovingAround"/>
-        <rdfs:label xml:lang="en">moving around outside home</rdfs:label>
+        <rdfs:label xml:lang="en">Moving around outside home</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/999985799"/>
     </owl:Class>
     <owl:Axiom>
@@ -3433,7 +3433,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MovingAround"/>
-        <rdfs:label xml:lang="en">moving around using transportation</rdfs:label>
+        <rdfs:label xml:lang="en">Moving around using transportation</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1540367470"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1690270390"/>
     </owl:Class>
@@ -3474,7 +3474,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MovingAround"/>
-        <rdfs:label xml:lang="en">moving around within home</rdfs:label>
+        <rdfs:label xml:lang="en">Moving around within home</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/863976524"/>
     </owl:Class>
     <owl:Axiom>
@@ -3507,7 +3507,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CognitiveAbilities"/>
-        <rdfs:label xml:lang="en">orienting oneself</rdfs:label>
+        <rdfs:label xml:lang="en">Orienting oneself</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1019906798"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1023908327"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1341571943"/>
@@ -3585,7 +3585,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SocialLife"/>
-        <rdfs:label xml:lang="en">participating in arts and cultural activities</rdfs:label>
+        <rdfs:label xml:lang="en">Participating in arts and cultural activities</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/582699162"/>
     </owl:Class>
     <owl:Axiom>
@@ -3618,7 +3618,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CommunicatingWithOthers"/>
-        <rdfs:label xml:lang="en">participating in conversation</rdfs:label>
+        <rdfs:label xml:lang="en">Participating in conversation</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/188997266"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2041742354"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/476822098"/>
@@ -3696,7 +3696,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">performing professional tasks</rdfs:label>
+        <rdfs:label xml:lang="en">Performing professional tasks</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/846512626"/>
     </owl:Class>
     <owl:Axiom>
@@ -3730,7 +3730,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MotorSkills"/>
         <efo:definition xml:lang="en">climbing, running, jumping, swimming...</efo:definition>
-        <rdfs:label xml:lang="en">performing vigorous activities</rdfs:label>
+        <rdfs:label xml:lang="en">Performing vigorous activities</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1374022472"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1533561892"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1785164743"/>
@@ -3826,7 +3826,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SocialLife"/>
-        <rdfs:label xml:lang="en">playing with others</rdfs:label>
+        <rdfs:label xml:lang="en">Playing with others</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/216760602"/>
     </owl:Class>
     <owl:Axiom>
@@ -3859,7 +3859,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SocialLife"/>
-        <rdfs:label xml:lang="en">practising sports</rdfs:label>
+        <rdfs:label xml:lang="en">Practising sports</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/465823194"/>
     </owl:Class>
     <owl:Axiom>
@@ -3892,7 +3892,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CommunicatingWithOthers"/>
-        <rdfs:label xml:lang="en">producing messages</rdfs:label>
+        <rdfs:label xml:lang="en">Producing messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/909196092"/>
     </owl:Class>
     <owl:Axiom>
@@ -3957,7 +3957,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ProducingMessages"/>
-        <rdfs:label xml:lang="en">producing nonverbal messages</rdfs:label>
+        <rdfs:label xml:lang="en">Producing nonverbal messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1116290334"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/219270693"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/439986917"/>
@@ -4059,7 +4059,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ApplyingKnowledge"/>
-        <rdfs:label xml:lang="en">reading</rdfs:label>
+        <rdfs:label xml:lang="en">Reading</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2036850613%20"/>
     </owl:Class>
     <owl:Axiom>
@@ -4091,7 +4091,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/CommunicatingWithOthers"/>
-        <rdfs:label xml:lang="en">receiving messages</rdfs:label>
+        <rdfs:label xml:lang="en">Receiving messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/821507328"/>
     </owl:Class>
     <owl:Axiom>
@@ -4122,7 +4122,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ReceivingMessages"/>
-        <rdfs:label xml:lang="en">receiving messages in sign language</rdfs:label>
+        <rdfs:label xml:lang="en">Receiving messages in sign language</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2010796037"/>
     </owl:Class>
     <owl:Axiom>
@@ -4155,7 +4155,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ReceivingMessages"/>
-        <rdfs:label xml:lang="en">receiving nonverbal messages</rdfs:label>
+        <rdfs:label xml:lang="en">Receiving nonverbal messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1682771693"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/259252620"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/408651084"/>
@@ -4215,7 +4215,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ReceivingMessages"/>
-        <rdfs:label xml:lang="en">receiving spoken messages</rdfs:label>
+        <rdfs:label xml:lang="en">Receiving spoken messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1192395813"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/414180620"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/462129663"/>
@@ -4275,7 +4275,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ReceivingMessages"/>
-        <rdfs:label xml:lang="en">receiving written messages</rdfs:label>
+        <rdfs:label xml:lang="en">Receiving written messages</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1012115397"/>
     </owl:Class>
     <owl:Axiom>
@@ -4308,7 +4308,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
-        <rdfs:label xml:lang="en">regulating defecation</rdfs:label>
+        <rdfs:label xml:lang="en">Regulating defecation</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/140091437"/>
     </owl:Class>
     <owl:Axiom>
@@ -4341,7 +4341,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SelfCare"/>
-        <rdfs:label xml:lang="en">regulating urination</rdfs:label>
+        <rdfs:label xml:lang="en">Regulating urination</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/527549677"/>
     </owl:Class>
     <owl:Axiom>
@@ -4374,7 +4374,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/TimeRelatedChanges"/>
-        <rdfs:label xml:lang="en">seasonal cycles</rdfs:label>
+        <rdfs:label xml:lang="en">Seasonal cycles</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1672445593"/>
     </owl:Class>
     <owl:Axiom>
@@ -4407,7 +4407,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Understanding"/>
-        <rdfs:label xml:lang="en">seeing watching</rdfs:label>
+        <rdfs:label xml:lang="en">Seeing watching</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/982430274"/>
     </owl:Class>
     <owl:Axiom>
@@ -4440,7 +4440,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/WorkAndEconomicLife"/>
-        <rdfs:label xml:lang="en">seeking employment</rdfs:label>
+        <rdfs:label xml:lang="en">Seeking employment</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/626828594"/>
     </owl:Class>
     <owl:Axiom>
@@ -4473,7 +4473,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">self care</rdfs:label>
+        <rdfs:label xml:lang="en">Self care</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1608009360"/>
     </owl:Class>
     <owl:Axiom>
@@ -4505,7 +4505,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Household"/>
-        <rdfs:label xml:lang="en">shopping</rdfs:label>
+        <rdfs:label xml:lang="en">Shopping</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/88971939"/>
     </owl:Class>
     <owl:Axiom>
@@ -4538,7 +4538,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ChangingBodyPosition"/>
-        <rdfs:label xml:lang="en">sitting</rdfs:label>
+        <rdfs:label xml:lang="en">Sitting</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/855039967"/>
     </owl:Class>
     <owl:Axiom>
@@ -4571,7 +4571,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">sleeping / being awake</rdfs:label>
+        <rdfs:label xml:lang="en">Sleeping / being awake</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2122861806"/>
     </owl:Class>
     <owl:Axiom>
@@ -4604,7 +4604,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label xml:lang="en">social life</rdfs:label>
+        <rdfs:label xml:lang="en">Social life</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1436113794"/>
     </owl:Class>
     <owl:Axiom>
@@ -4636,7 +4636,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SocialLife"/>
-        <rdfs:label xml:lang="en">socializing</rdfs:label>
+        <rdfs:label xml:lang="en">Socializing</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1197635290"/>
     </owl:Class>
     <owl:Axiom>
@@ -4669,7 +4669,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/EnvironmentalFactors"/>
-        <rdfs:label xml:lang="en">sound</rdfs:label>
+        <rdfs:label xml:lang="en">Sound</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1603650312"/>
     </owl:Class>
     <owl:Axiom>
@@ -4768,7 +4768,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ProducingMessages"/>
-        <rdfs:label xml:lang="en">speaking</rdfs:label>
+        <rdfs:label xml:lang="en">Speaking</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/151046878"/>
     </owl:Class>
     <owl:Axiom>
@@ -4834,7 +4834,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SleepingBeingAwake"/>
-        <rdfs:label xml:lang="en">staying asleep</rdfs:label>
+        <rdfs:label xml:lang="en">Staying asleep</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/676188810"/>
     </owl:Class>
     <owl:Axiom>
@@ -4867,7 +4867,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SleepingBeingAwake"/>
-        <rdfs:label xml:lang="en">staying awake</rdfs:label>
+        <rdfs:label xml:lang="en">Staying awake</rdfs:label>
     </owl:Class>
     
 
@@ -4975,7 +4975,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Climate"/>
-        <rdfs:label xml:lang="en">temperature</rdfs:label>
+        <rdfs:label xml:lang="en">Temperature</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/673614169"/>
     </owl:Class>
     <owl:Axiom>
@@ -5125,6 +5125,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SocialLife"/>
+        <rdfs:label xml:lang="en">Travelling</rdfs:label>
     </owl:Class>
     
 
@@ -5664,7 +5665,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ApplyingKnowledge"/>
-        <rdfs:label xml:lang="en">writing</rdfs:label>
+        <rdfs:label xml:lang="en">Writing</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1967923182"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/492990407"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/605733511"/>
@@ -5826,7 +5827,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/temporality"/>
-        <efo:definition xml:lang="en">delayed acquisition: a skill or a participation is performed later than by a healthy person.</efo:definition>
+        <efo:definition xml:lang="en">Delayed acquisition: a skill or a participation is performed later than by a healthy person.</efo:definition>
         <rdfs:label xml:lang="en">Acquisition delay</rdfs:label>
     </owl:Class>
     
@@ -5851,7 +5852,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
-        <efo:definition xml:lang="en">complete: Activity or participation cannot be carried out, even with technical and/or human assistance.</efo:definition>
+        <efo:definition xml:lang="en">Complete: Activity or participation cannot be carried out, even with technical and/or human assistance.</efo:definition>
+         <rdfs:label xml:lang="en">Complete</rdfs:label>
     </owl:Class>
     
 
@@ -5977,6 +5979,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">low: Activity or participation can be carried out with little difficulty by the patient alone.</efo:definition>
+		<rdfs:label xml:lang="en">Low</rdfs:label>
     </owl:Class>
     
 
@@ -6001,6 +6004,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">moderate: Activity or participation can be carried out with some technical and/or human assistance</efo:definition>
+		<rdfs:label xml:lang="en">Moderate</rdfs:label>
     </owl:Class>
     
 
