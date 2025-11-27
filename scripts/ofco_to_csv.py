@@ -1,9 +1,11 @@
+# Convert OFCO_thesaurus.owl to CSV file, with ICF mappings
+# Marc Hanauer @Orphanet 2025
+# pip install rdflib if needed
+
 from rdflib import Graph, RDFS, Namespace, URIRef, Literal
 import csv
 
-# Convert OFCO_thesaurus.owl to CSV file, with ICF mappings
-
-
+# local files
 OWL_FILE = "OFCO_thesaurus.owl"
 CSV_FILE = "OFCO_thesaurus_ICF.csv"
 
