@@ -1,0 +1,288 @@
+subject_id	subject_label	predicate_id	object_id	mapping_date	mapping_type	author_id	author_label	subject_source_version
+	Activity limitation/participation restriction	skos:exactMatch	http://id.who.int/icd/entity/1394728112	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Understanding	skos:broadMatch	http://id.who.int/icd/entity/2011053685	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d110	Seeing/watching	skos:exactMatch	http://id.who.int/icd/entity/982430274	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d115	Hearing/listening	skos:exactMatch	http://id.who.int/icd/entity/1896301954	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Learning	skos:narrowMatch	http://id.who.int/icd/entity/1314143106	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d132	Acquiring language	skos:exactMatch	http://id.who.int/icd/entity/840583219	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1320	Acquiring language	skos:broadMatch	http://id.who.int/icd/entity/1063388010	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1321	Acquiring language	skos:broadMatch	http://id.who.int/icd/entity/675964842	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1322	Acquiring language	skos:broadMatch	http://id.who.int/icd/entity/288541418	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d140	Learning to read	skos:exactMatch	http://id.who.int/icd/entity/760395462 	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1400	Learning to read	skos:broadMatch	http://id.who.int/icd/entity/1050326081	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1401	Learning to read	skos:broadMatch	http://id.who.int/icd/entity/699584641	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1402	Learning to read	skos:broadMatch	http://id.who.int/icd/entity/281705921	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d145	Learning to write	skos:exactMatch	http://id.who.int/icd/entity/1725645062	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1450	Learning to write	skos:broadMatch	http://id.who.int/icd/entity/692498631	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1451	Learning to write	skos:broadMatch	http://id.who.int/icd/entity/1047450631	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1452	Learning to write	skos:broadMatch	http://id.who.int/icd/entity/118913351	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d150	Learning to calculate	skos:exactMatch	http://id.who.int/icd/entity/1401433117    	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1500	Learning to calculate	skos:broadMatch	http://id.who.int/icd/entity/645459240	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1501	Learning to calculate	skos:broadMatch	http://id.who.int/icd/entity/827361768	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1502	Learning to calculate	skos:broadMatch	http://id.who.int/icd/entity/136848552	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+NC	Applying knowledge	skos:exactMatch	http://id.who.int/icd/entity/1014916094	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d166	Reading	skos:exactMatch	http://id.who.int/icd/entity/2036850613 	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d170	Writing	skos:exactMatch	http://id.who.int/icd/entity/1967923182	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1700	Writing	skos:broadMatch	http://id.who.int/icd/entity/858957383	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1701	Writing	skos:broadMatch	http://id.who.int/icd/entity/605733511	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1702	Writing	skos:broadMatch	http://id.who.int/icd/entity/492990407	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d172	Calculating	skos:exactMatch	http://id.who.int/icd/entity/1528616558	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1720	Calculating	skos:broadMatch	http://id.who.int/icd/entity/368481720	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1721	Calculating	skos:broadMatch	http://id.who.int/icd/entity/48165240	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Cognitive abilities			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d160	Focusing attention	skos:exactMatch	http://id.who.int/icd/entity/194413877	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1600	Focusing attention	skos:broadMatch	http://id.who.int/icd/entity/735117104	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1601	Focusing attention	skos:broadMatch	http://id.who.int/icd/entity/1022925808	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b144	Memorizing and retrieving	skos:exactMatch	http://id.who.int/icd/entity/1920216617	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1441	Memorizing and retrieving	skos:broadMatch	http://id.who.int/icd/entity/906623760	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1443	Memorizing and retrieving	skos:broadMatch	http://id.who.int/icd/entity/408498832	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d163	Thinking and reasoning	skos:exactMatch	http://id.who.int/icd/entity/854468725	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d175	Making decisions/Taking initiatives/Finding solutions	skos:narrowMatch	http://id.who.int/icd/entity/126518990	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d177	Making decisions/Taking initiatives/Finding solutions	skos:narrowMatch	http://id.who.int/icd/entity/278208942	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1750	Making decisions/Taking initiatives/Finding solutions	skos:broadMatch	http://id.who.int/icd/entity/619619009	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d1751	Making decisions/Taking initiatives/Finding solutions	skos:broadMatch	http://id.who.int/icd/entity/868664833	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b114	Orienting oneself	skos:exactMatch	http://id.who.int/icd/entity/1670590220	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1142	Orienting oneself	skos:broadMatch	http://id.who.int/icd/entity/1023908327	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b11420	Orienting oneself	skos:broadMatch	http://id.who.int/icd/entity/736292398	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b11421	Orienting oneself	skos:broadMatch	http://id.who.int/icd/entity/1019906798	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1143	Orienting oneself	skos:broadMatch	http://id.who.int/icd/entity/707788071	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1144	Orienting oneself	skos:broadMatch	http://id.who.int/icd/entity/1341571943	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1140	Being aware of time	skos:exactMatch	http://id.who.int/icd/entity/324489319	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1141	Being aware of space	skos:exactMatch	http://id.who.int/icd/entity/1341571943	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Communicating with others	skos:exactMatch	http://id.who.int/icd/entity/1828012543	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Receiving messages	skos:exactMatch	http://id.who.int/icd/entity/821507328                                                                                                                                                                                                                               	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d310	Receiving spoken messages	skos:exactMatch	http://id.who.int/icd/entity/1192395813	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3101	Receiving spoken messages	skos:broadMatch	http://id.who.int/icd/entity/414180620	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3102	Receiving spoken messages	skos:broadMatch	http://id.who.int/icd/entity/567756876	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3103	Receiving spoken messages	skos:broadMatch	http://id.who.int/icd/entity/462129663	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d320	Receiving messages in sign language	skos:exactMatch	http://id.who.int/icd/entity/2010796037	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d315	Receiving nonverbal messages	skos:exactMatch	http://id.who.int/icd/entity/1682771693	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3150	Receiving nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/408651084	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3151	Receiving nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/259252620	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3152	Receiving nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/906710220	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d325	Receiving written messages	skos:exactMatch	http://id.who.int/icd/entity/1012115397	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Producing messages	skos:exactMatch	http://id.who.int/icd/entity/909196092	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d330	Speaking	skos:exactMatch	http://id.who.int/icd/entity/151046878	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d340	Producing messages in sign language	skos:exactMatch	http://id.who.int/icd/entity/941161899	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d335	Producing nonverbal messages	skos:exactMatch	http://id.who.int/icd/entity/1116290334	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3350	Producing nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/219270693	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3351	Producing nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/439986917	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3352	Producing nonverbal messages	skos:broadMatch	http://id.who.int/icd/entity/591464357	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d345	Writing messages	skos:exactMatch	http://id.who.int/icd/entity/1938885227	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d350	Participating in a conversation	skos:exactMatch	http://id.who.int/icd/entity/952917930	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3500	Participating in a conversation	skos:broadMatch	http://id.who.int/icd/entity/622008082	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3501	Participating in a conversation	skos:broadMatch	http://id.who.int/icd/entity/842757074	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3502	Participating in a conversation	skos:broadMatch	http://id.who.int/icd/entity/188997266	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3503	Participating in a conversation	skos:broadMatch	http://id.who.int/icd/entity/476822098	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3504	Participating in a conversation	skos:broadMatch	http://id.who.int/icd/entity/2041742354	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d360	Using communication devices	skos:exactMatch	http://id.who.int/icd/entity/517787226	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3600	Using communication devices	skos:broadMatch	http://id.who.int/icd/entity/683345174	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3601	Using communication devices	skos:broadMatch	http://id.who.int/icd/entity/1066623446	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d3602	Using communication devices	skos:broadMatch	http://id.who.int/icd/entity/116116630	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+NC	Motor skills	skos:exactMatch	http://id.who.int/icd/entity/2048203604	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d410	Changing body position	skos:narrowMatch	http://id.who.int/icd/entity/150502901	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d420	Changing body position	skos:narrowMatch	http://id.who.int/icd/entity/1119392889	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4104	Standing	skos:exactMatch	http://id.who.int/icd/entity/1462755743	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4103	Sitting	skos:exactMatch	http://id.who.int/icd/entity/855039967	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4105	Bending	skos:exactMatch	http://id.who.int/icd/entity/1074234719	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d420	Transferring oneself	skos:exactMatch	http://id.who.int/icd/entity/1119392889	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4200	Transferring oneself	skos:broadMatch	http://id.who.int/icd/entity/103178393	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4201	Transferring oneself	skos:broadMatch	http://id.who.int/icd/entity/286131289	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d415	Maintaining body position	skos:exactMatch	http://id.who.int/icd/entity/1131514421	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4150	Maintaining body position	skos:broadMatch	http://id.who.int/icd/entity/475166233	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4151	Maintaining body position	skos:broadMatch	http://id.who.int/icd/entity/192549593	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4152	Maintaining body position	skos:broadMatch	http://id.who.int/icd/entity/839040921	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4153	Maintaining body position	skos:broadMatch	http://id.who.int/icd/entity/623565657	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4154	Maintaining a standing position	skos:exactMatch	http://id.who.int/icd/entity/485719194	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4155	Maintaining head position	skos:exactMatch	http://id.who.int/icd/entity/1474003417	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Using objects	skos:exactMatch	http://id.who.int/icd/entity/2086581809	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4452	Reaching and catching objects	skos:broadMatch	http://id.who.int/icd/entity/7630894	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4455	Reaching and catching objects	skos:broadMatch	http://id.who.int/icd/entity/1705856622	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d430	Lifting and carrying objects	skos:exactMatch	http://id.who.int/icd/entity/775704068	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4300	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/516176368	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4301	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/166485296	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4302	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/815067248	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4303	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/666670256	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4304	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/1113959152	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4305	Lifting and carrying objects	skos:broadMatch	http://id.who.int/icd/entity/1431162416	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d440	Handling objects (fine hand use)	skos:exactMatch	http://id.who.int/icd/entity/522484083	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4400	Handling objects (fine hand use)	skos:broadMatch	http://id.who.int/icd/entity/972602666	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4401	Handling objects (fine hand use)	skos:broadMatch	http://id.who.int/icd/entity/785439210	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4402	Handling objects (fine hand use)	skos:broadMatch	http://id.who.int/icd/entity/396915882	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4403	Handling objects (fine hand use)	skos:broadMatch	http://id.who.int/icd/entity/8392810	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d450	Walking	skos:exactMatch	http://id.who.int/icd/entity/1550548595	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4502	Walking	skos:broadMatch	http://id.who.int/icd/entity/256519617	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4503	Walking	skos:broadMatch	http://id.who.int/icd/entity/409094401	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4500	Walking short distances	skos:exactMatch	http://id.who.int/icd/entity/555410497	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4501	Walking long distances	skos:exactMatch	http://id.who.int/icd/entity/909279361	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d455	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:exactMatch	http://id.who.int/icd/entity/712447084	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4550	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/919003335	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4551	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/569279495	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4552	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/412494151	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4553	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/264129927	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4554	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/1785164743	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4555	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/1374022472	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4556	Performing vigorous activities (climbing, running, jumping, swimming,…)	skos:broadMatch	http://id.who.int/icd/entity/1533561892	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Self-care	skos:exactMatch	http://id.who.int/icd/entity/1608009360	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d510	Washing oneself	skos:exactMatch	http://id.who.int/icd/entity/1882548282	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5100	Washing oneself	skos:broadMatch	http://id.who.int/icd/entity/171675522	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5101	Washing oneself	skos:broadMatch	http://id.who.int/icd/entity/487844674	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5102	Washing oneself	skos:broadMatch	http://id.who.int/icd/entity/611010050	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d520	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:exactMatch	http://id.who.int/icd/entity/262798167	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5200	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/127114630	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5201	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/280754502	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5202	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/700666886	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5203	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/1055600838	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5204	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/1530007174	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5205	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/1276799558	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5206	Caring for body parts (skin, teeth, nails, hair, genitals)	skos:broadMatch	http://id.who.int/icd/entity/416122824	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5300	Regulating urination	skos:exactMatch	http://id.who.int/icd/entity/527549677	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5301	Regulating defecation	skos:exactMatch	http://id.who.int/icd/entity/140091437	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d540	Dressing / undressing	skos:exactMatch	http://id.who.int/icd/entity/1860600370	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5400	Dressing / undressing	skos:broadMatch	http://id.who.int/icd/entity/944586805	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5401	Dressing / undressing	skos:broadMatch	http://id.who.int/icd/entity/795157749	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5402	Dressing / undressing	skos:broadMatch	http://id.who.int/icd/entity/371034549	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5403	Dressing / undressing	skos:broadMatch	http://id.who.int/icd/entity/20311413	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5404	Dressing / undressing	skos:broadMatch	http://id.who.int/icd/entity/1693242165	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d550	Eating	skos:exactMatch	http://id.who.int/icd/entity/1328675264	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d560	Drinking	skos:exactMatch	http://id.who.int/icd/entity/553784299	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d570	Managing one's health (diet, medications, prevention, needs, assistance,monitoring)	skos:exactMatch	http://id.who.int/icd/entity/1398348540	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5700	Managing one's health (diet, medications, prevention, needs, assistance,monitoring)	skos:broadMatch	http://id.who.int/icd/entity/904221235	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5701	Managing one's health (diet, medications, prevention, needs, assistance,monitoring)	skos:broadMatch	http://id.who.int/icd/entity/583874291	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d5702	Managing one's health (diet, medications, prevention, needs, assistance,monitoring)	skos:broadMatch	http://id.who.int/icd/entity/464886707	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b134	Sleeping/being awake	NTBT 	http://id.who.int/icd/entity/2122861806	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1341	Falling asleep	skos:exactMatch	http://id.who.int/icd/entity/288718794	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1342	Staying asleep	skos:exactMatch	http://id.who.int/icd/entity/676188810	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1343	Getting a good quality sleep	skos:exactMatch	http://id.who.int/icd/entity/1063630410	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Staying awake			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Temperament and behaviour			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d240	Handling stress, responsabilities, emergencies and ensuring one’s safety	skos:exactMatch	http://id.who.int/icd/entity/639612322	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2400	Handling stress, responsabilities, emergencies and ensuring one’s safety	skos:broadMatch	http://id.who.int/icd/entity/1011135336	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2401	Handling stress, responsabilities, emergencies and ensuring one’s safety	skos:broadMatch	http://id.who.int/icd/entity/728553384	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2402	Handling stress, responsabilities, emergencies and ensuring one’s safety	skos:broadMatch	http://id.who.int/icd/entity/303332072	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b152	Handling emotions and mood	skos:exactMatch	http://id.who.int/icd/entity/668868854	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1520	Handling emotions and mood	skos:broadMatch	http://id.who.int/icd/entity/1979804439	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1521	Handling emotions and mood	skos:broadMatch	http://id.who.int/icd/entity/1630080983	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+b1522	Handling emotions and mood	skos:broadMatch	http://id.who.int/icd/entity/1481745047	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Controlling one’s own general behaviour			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Controlling one’s own eating behavior			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d460	Moving around	skos:broadMatch	http://id.who.int/icd/entity/971000452	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+NC	Moving around	skos:broadMatch	http://id.who.int/icd/entity/1690270390	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4600	Moving around within the home	skos:exactMatch	http://id.who.int/icd/entity/863976524	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4601	Moving around outside the home	skos:exactMatch	http://id.who.int/icd/entity/999985799	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Moving around using transportation	skos:exactMatch	http://id.who.int/icd/entity/1690270390	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d480	Moving around using transportation	skos:broadMatch	http://id.who.int/icd/entity/1540367470	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d470	Using transportation	skos:exactMatch	http://id.who.int/icd/entity/267105207	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4700	Using transportation	skos:broadMatch	http://id.who.int/icd/entity/877702958	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4701	Using transportation	skos:broadMatch	http://id.who.int/icd/entity/595119086	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4702	Using transportation	skos:broadMatch	http://id.who.int/icd/entity/436233902	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4703	Using transportation	skos:broadMatch	http://id.who.int/icd/entity/220725870	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d475	Driving	skos:exactMatch	http://id.who.int/icd/entity/213067675	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4750	Driving	skos:broadMatch	http://id.who.int/icd/entity/596421546	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4751	Driving	skos:broadMatch	http://id.who.int/icd/entity/883216234	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d4752	Driving	skos:broadMatch	http://id.who.int/icd/entity/232546858	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Interpersonal skills	skos:exactMatch	http://id.who.int/icd/entity/982325691	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Interacting with other people	skos:exactMatch	http://id.who.int/icd/entity/573831863	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d710	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1936511680	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7100	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/156267960	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7101	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/511185272	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7102	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/654359608	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7103	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/807983352	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7104	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1441916600	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7105	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1121550968	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7106	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/2074160952	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d720	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1565443803	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7200	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/83388352	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7201	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/332399488	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7202	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/715697728	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7203	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1031850752	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7204	Interacting with other people	skos:broadMatch	http://id.who.int/icd/entity/1482290368	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7500	Making/keeping friends	skos:exactMatch	http://id.who.int/icd/entity/600105830	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d760	Maintaining family relationships	skos:exactMatch	http://id.who.int/icd/entity/877156484	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7600	Maintaining family relationships	skos:broadMatch	http://id.who.int/icd/entity/778891618	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7601	Maintaining family relationships	skos:broadMatch	http://id.who.int/icd/entity/960796066	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7602	Maintaining family relationships	skos:broadMatch	http://id.who.int/icd/entity/3946722	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7603	Maintaining family relationships	skos:broadMatch	http://id.who.int/icd/entity/387210274	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d730	Dealing with strangers	skos:exactMatch	http://id.who.int/icd/entity/327373045	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d770	Engaging in and maintaining intimate relationships	NTBT 	http://id.who.int/icd/entity/680339969	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7700	Engaging in and maintaining intimate relationships	skos:broadMatch	http://id.who.int/icd/entity/915318793	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7701	Engaging in and maintaining intimate relationships	skos:broadMatch	http://id.who.int/icd/entity/564579529	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d7702	Engaging in sexual relationships	skos:exactMatch	http://id.who.int/icd/entity/417227145	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Daily activities	skos:broadMatch	http://id.who.int/icd/entity/1535125568	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Daily activities	skos:broadMatch	http://id.who.int/icd/entity/524305529	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Household	skos:exactMatch	http://id.who.int/icd/entity/1452836727	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6200	Shopping	skos:exactMatch	http://id.who.int/icd/entity/88971939	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d630	Cooking/Preparing meals	skos:exactMatch	http://id.who.int/icd/entity/871682135	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6300	Cooking/Preparing meals	skos:broadMatch	http://id.who.int/icd/entity/498058186	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6301	Cooking/Preparing meals	skos:broadMatch	http://id.who.int/icd/entity/176662282	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d640	Doing housework	skos:exactMatch	http://id.who.int/icd/entity/1394299422	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6400	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/982730516	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6401	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/767239124	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6402	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/348360340	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6403	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/65792596	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6404	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/1714607124	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6405	Doing housework	skos:broadMatch	http://id.who.int/icd/entity/1897574612	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d660	Looking after/helping others	skos:exactMatch	http://id.who.int/icd/entity/1300951288	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6600	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/802753661	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6601	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/955345085	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6602	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/25806333	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6603	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/379691325	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6604	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/1937284989	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d6605	Looking after/helping others	skos:broadMatch	http://id.who.int/icd/entity/1683028925	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Education	NTBT 	http://id.who.int/icd/entity/49044301	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d815	Attending preschool	skos:exactMatch	http://id.who.int/icd/entity/1020014935	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Attending school in an adapted mainstream/special environment	skos:broadMatch	http://id.who.int/icd/entity/794521535	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d825	Learning a profession (Vocational training/Apprenticeship) in the standard	skos:exactMatch	http://id.who.int/icd/entity/1691523199	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Learning a profession (Vocational training/Apprenticeship) in an adapted			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d830	Accessing higher education	skos:exactMatch	http://id.who.int/icd/entity/1367471462	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Work and economic life	skos:broadMatch	http://id.who.int/icd/entity/73014515	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Work and economic life	skos:broadMatch	http://id.who.int/icd/entity/1805290862	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d850	Engaging in paid work in a standard environment	skos:exactMatch	http://id.who.int/icd/entity/1992737508	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8500	Engaging in paid work in a standard environment	skos:broadMatch	http://id.who.int/icd/entity/711129309	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8501	Engaging in paid work in a standard environment	skos:broadMatch	http://id.who.int/icd/entity/1028299805	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8502	Engaging in paid work in a standard environment	skos:broadMatch	http://id.who.int/icd/entity/70398301	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Engaging in paid work in a supported / sheltered environment			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8450	Seeking employment	skos:exactMatch	http://id.who.int/icd/entity/626828594	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8451	Performing professional tasks	skos:exactMatch	http://id.who.int/icd/entity/846512626	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d870	Handling money/Managing one’s own budget	skos:exactMatch	http://id.who.int/icd/entity/948398905	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8700	Handling money/Managing one’s own budget	skos:broadMatch	http://id.who.int/icd/entity/1059632050	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d8701	Handling money/Managing one’s own budget	skos:broadMatch	http://id.who.int/icd/entity/671143794	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Carrying out administrative procedures			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Life management	NTBT 	http://id.who.int/icd/entity/1228414013	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2100	Undertaking a simple task	skos:exactMatch	http://id.who.int/icd/entity/238189777	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2102	Undertaking a simple task	skos:broadMatch	http://id.who.int/icd/entity/543339857	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2103	Undertaking a simple task	skos:broadMatch	http://id.who.int/icd/entity/927650193	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2101	Undertaking a complex/multiple task	skos:exactMatch	http://id.who.int/icd/entity/421140497	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d230	Carrying out daily routines	skos:exactMatch	http://id.who.int/icd/entity/2018794819	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2301	Carrying out daily routines	skos:broadMatch	http://id.who.int/icd/entity/206590846	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2302	Carrying out daily routines	skos:broadMatch	http://id.who.int/icd/entity/891878974	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2303	Carrying out daily routines	skos:broadMatch	http://id.who.int/icd/entity/570465022	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d2304	Carrying out daily routines	skos:broadMatch	http://id.who.int/icd/entity/1205445822	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Social life	skos:exactMatch	http://id.who.int/icd/entity/1436113794	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d910	Taking part in community life	skos:exactMatch	http://id.who.int/icd/entity/1873256446	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9100	Taking part in community life	skos:broadMatch	http://id.who.int/icd/entity/21205790	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9101	Taking part in community life	skos:broadMatch	http://id.who.int/icd/entity/376174558	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9102	Taking part in community life	skos:broadMatch	http://id.who.int/icd/entity/789797534	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9200	Playing with others	skos:exactMatch	http://id.who.int/icd/entity/216760602	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9205	Socializing	skos:exactMatch	http://id.who.int/icd/entity/1197635290	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9201	Practicing sports	skos:exactMatch	http://id.who.int/icd/entity/465823194	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:d9202	Participating in the arts and cultural activities	skos:exactMatch	http://id.who.int/icd/entity/582699162	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Travelling			2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+	Environmental factors	skos:exactMatch	http://id.who.int/icd/entity/1141487728	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e1100	Food	skos:exactMatch	http://id.who.int/icd/entity/814520574	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e225	Climate	NTBT 	http://id.who.int/icd/entity/621020081	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2250	Temperature	skos:exactMatch	http://id.who.int/icd/entity/673614169	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2251	Humidity	skos:exactMatch	http://id.who.int/icd/entity/1057942937	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e240	Light	skos:exactMatch	http://id.who.int/icd/entity/558848479	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2400	Light intensity	skos:exactMatch	http://id.who.int/icd/entity/2379888	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2401	Light quality	skos:exactMatch	http://id.who.int/icd/entity/386675888	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e245	Time-related changes	NTBT 	http://id.who.int/icd/entity/1791405599	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2450	Day/night cycles	skos:exactMatch	http://id.who.int/icd/entity/402150632	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2255	Seasonal cycles	skos:exactMatch	http://id.who.int/icd/entity/1672445593	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e250	Sound	skos:exactMatch	http://id.who.int/icd/entity/1603650312	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2500	Sound intensity	skos:exactMatch	http://id.who.int/icd/entity/415631623	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2501	Sound quality	skos:exactMatch	http://id.who.int/icd/entity/267283911	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e255	Vibrations	skos:exactMatch	http://id.who.int/icd/entity/337392840	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e260	Air quality	skos:exactMatch	http://id.who.int/icd/entity/126577200	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2600	Air quality	skos:broadMatch	http://id.who.int/icd/entity/359537409	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
+ICF:e2601	Air quality	skos:broadMatch	http://id.who.int/icd/entity/38174657	2025-09-03	semapv:ManualMappingCuration	orcid.org/0000-0003-4308-6337	Dr Rami Nadji	2025-01
