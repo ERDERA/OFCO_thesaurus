@@ -134,6 +134,8 @@ def main():
             '',
             f'  ',
             f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
+            f'    <ofco:hasOrphanetDiseaseLink rdf:resource="https://www.orpha.net/en/disease/detail/{orpha_code}"/>',
+            f'    <ofco:hasOrphanetDisabilityLink rdf:resource="https://www.orpha.net/en/disease/disability/detail/{orpha_code}"/>'
         ])
         
         # hasSpecificManagement stays on the disorder
