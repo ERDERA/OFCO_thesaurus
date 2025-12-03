@@ -132,7 +132,7 @@ def main():
         
         output_lines.extend([
             '',
-            f'  <!-- Disorder: {disorder_name} (Orphanet_{orpha_code}) -->',
+            f'  ',
             f'  <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_{orpha_code}">'
         ])
         
@@ -154,11 +154,29 @@ def main():
                 category_uri = mappings['OrphaNumbers'].get(orpha_number)
                 if category_uri:
                     output_lines.extend([
-                        f'    <!-- Disability category: {xml_escape(name_node.text) if name_node is not None else orpha_number} -->',
+                        f'    ',
                         f'    <ofco:hasDisabilityCategory rdf:resource="{category_uri}"/>'
                     ])
                 elif not quiet_mode:
                     print(f'\033[93m Warning: DisabilityCategory OrphaNumber {orpha_number} not found in ontology\033[0m')
+        
+        # ReasonForNotApplicable (Processed after DisabilityCategory)
+        reason_not_applicable = relevance.find('ReasonForNotApplicable')
+        if reason_not_applicable is not None:
+            orpha_node = reason_not_applicable.find('OrphaNumber')
+            name_node = reason_not_applicable.find("Name[@lang='en']")
+            
+            if orpha_node is not None and orpha_node.text:
+                orpha_number = orpha_node.text.strip()
+                # IRI mappings based on OrphaNumbers
+                if orpha_number in mappings['OrphaNumbers']:
+                    uri = mappings['OrphaNumbers'][orpha_number]
+                    output_lines.extend([
+                        f'    ',
+                        f'    <ofco:hasReasonForNotApplicable rdf:resource="{uri}"/>'
+                    ])
+                elif not quiet_mode:
+                    print(f'\033[93m Warning: ReasonForNotApplicable OrphaNumber {orpha_number} not found in ontology\033[0m')
         
         # DisabilityDisorderAssociationList - using blank nodes
         associations = disorder.findall('DisabilityDisorderAssociationList/DisabilityDisorderAssociation')
@@ -174,7 +192,7 @@ def main():
             
             output_lines.extend([
                 '',
-                f'    <!-- Disability: {disability_name} -->',
+                f'    ',
                 '    <ofco:hasDisabilityAnnotation rdf:parseType="Resource">',
                 '      <rdf:type rdf:resource="https://w3id.org/ofco/DisabilityDisorderAssociation"/>'
             ])
