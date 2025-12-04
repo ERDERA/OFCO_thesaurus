@@ -1,8 +1,8 @@
 # dummy XML disabilities parser mixed with OFCO thesaurus
 # Auteur: Marc Hanauer @Orphanet
 # powershell. windows 11
-# Date: 2025
-# PYTHON VERSION WILL BE DONE
+# Date: june 2025
+# DEPRECATED : PYTHON VERSION IS DONE AND UPDATED
 
 # todo : add files as arguments instead full path
 $ofcoFile   = 'OFCO_thesaurus.owl'
