@@ -19,9 +19,13 @@ This file, available through Orphadata platform (https://sciences.orphadata.com/
 An adapted version is used: Disability_Orphanet_annotations.xml ([`Disability_Orphanet_annotations.xml`](data/input/Disability_Orphanet_annotations.xml))
 
 ## OUTPUT
-A script has been done to parse "Disability_Orphanet_annotations.xml" and "OFCO_thesaurus.owl" and produce a version of "en_funct_consequences.xml" but only with ORDO IRI for diseases concepts and OFCO IRI for disabilities concept : "Diseases_annotated_with_OFCO.owl"
+- A script has been done to parse "Disability_Orphanet_annotations.xml" and "OFCO_thesaurus.owl" and produce a version of "en_funct_consequences.xml" but only with ORDO IRI for diseases concepts and OFCO IRI for disabilities concept : "Diseases_annotated_with_OFCO.owl"
 
 ([`Diseases_annotated_with_OFCO.owl`](data/output/Diseases_annotated_with_OFCO.owl)) Diseases_annotated_with_OFCO.owl : a RDF/OWL file containing "Diseases" (ORDO IRI based) annotated with OFCO thesaurus IRI.
+
+- A script has been done to convert the OWL thesaurus OFCO_thesaurus.owl into CSV file, including ICF mappings : OFCO_thesaurus_ICF.csv
+
+- A script has been done to check ICF URI within OFCO_thesaurus_ICF.csv and generate a report : OFCO_ICF_validation_report.txt
 
 ## Testing Method
 ORDO has been used. ([`ORDO_en_4.7.owl`](https://sciences.orphadata.com/ordo/))
