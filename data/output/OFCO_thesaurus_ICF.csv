@@ -1,303 +1,338 @@
-IRI;Label;Parent;hasICFuri;hasICFcode;ManualAssertion
-http://purl.obolibrary.org/obo/ECO_0000205;curator_inference;;;;
-http://purl.obolibrary.org/obo/ECO_0000218;manual_assertion;;;;
-https://w3id.org/ofco/AccessingHigherEducation;Accessing higher education;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1367471462;ICF:d830;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/AcquiringLanguage;Acquiring language;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1063388010;ICF:d1320;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/AcquiringLanguage;Acquiring language;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/288541418;ICF:d1322;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/AcquiringLanguage;Acquiring language;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/675964842;ICF:d1321;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/AcquiringLanguage;Acquiring language;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/840583219;ICF:d132;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/AcquisitionDelay;Acquisition delay;https://w3id.org/ofco/temporality;;;
-https://w3id.org/ofco/ActivitiesAndParticipation;Activity limitation and participation restriction;;http://id.who.int/icd/entity/1394728112;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/AirQuality;Air quality;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/126577200;ICF:e260;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/AirQuality;Air quality;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/359537409;ICF:e2600;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/AirQuality;Air quality;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/38174657;ICF:e2601;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ApplyingKnowledge;Applying knowledge;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/1014916094;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/AttendingAdaptedSchool;Attending school in an adapted mainstream or special environment;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/794521535;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/AttendingMainstreamSchool;attending mainstream school;https://w3id.org/ofco/Education;;;
-https://w3id.org/ofco/AttendingPreschool;Attending preschool;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1020014935;ICF:d815;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/BeingAwareOfSpace;Being aware of space;https://w3id.org/ofco/OrientingOneself;http://id.who.int/icd/entity/1341571943;ICF:b1141;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/BeingAwareOfTime;Being aware of time;https://w3id.org/ofco/OrientingOneself;http://id.who.int/icd/entity/324489319;ICF:b1140;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Bending;Bending;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1074234719;ICF:d4105;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Calculating;Calculating;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/1528616558%20;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Calculating;Calculating;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/368481720;ICF:d1720;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1055600838;ICF:d5203;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/127114630;ICF:d5200;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1276799558;ICF:d5205;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1530007174;ICF:d5204;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/262798167;ICF:d520;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/280754502;ICF:d5201;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/416122824;ICF:d5206;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/700666886;ICF:d5202;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CarryingOutAdministrativeProcedures;Carrying out administrative procedures;https://w3id.org/ofco/WorkAndEconomicLife;;;
-https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/1205445822;ICF:d2304;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/2018794819;ICF:d230;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/206590846;ICF:d2301;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/570465022;ICF:d2303;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/891878974;ICF:d2302;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ChangingBodyPosition;Changing body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1119392889;ICF:d420;NTBT narrower term maps to a broader term
-https://w3id.org/ofco/ChangingBodyPosition;Changing body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/150502901;ICF:d410;NTBT narrower term maps to a broader term
-https://w3id.org/ofco/Climate;Climate;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/621020081;ICF:e225;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/CognitiveAbilities;Cognitive abilities;https://w3id.org/ofco/Understanding;;;
-https://w3id.org/ofco/CommunicatingWithOthers;Communicating with others;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1828012543;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Complete;Complete;https://w3id.org/ofco/SeverityDisability;;;
-https://w3id.org/ofco/ControllingEatingBehaviour;Controlling one’s own eating behavior;https://w3id.org/ofco/TemperamentAndBehaviour;;;
-https://w3id.org/ofco/ControllingGeneralBehaviour;Controlling one’s own general behaviour;https://w3id.org/ofco/TemperamentAndBehaviour;;;
-https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/176662282;ICF:d6301;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/498058186;ICF:d6300;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/871682135;ICF:d630;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/DailyActivities;Daily activities;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1535125568;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DailyActivities;Daily activities;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/524305529;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DayNightCycles;Day and night cycles;https://w3id.org/ofco/TimeRelatedChanges;http://id.who.int/icd/entity/402150632;ICF:e2450;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/DealingWithStrangers;Dealing with strangers;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/327373045;ICF:d730;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/DisabilityDisorderAssociation;Disability Disorder Association;;;;
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1394299422;ICF:d640;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1714607124;ICF:d6404;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1897574612;ICF:d6405;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/348360340;ICF:d6402;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/65792596;ICF:d6403;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/767239124;ICF:d6401;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DoingHousework;Doing housework;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/982730516;ICF:d6400;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1693242165;ICF:d5404;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1860600370;ICF:d540;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/20311413;ICF:d5403;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/371034549;ICF:d5402;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/795157749;ICF:d5401;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/DressingUndressing;Dressing undressing;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/944586805;ICF:d5400;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Drinking;Drinking;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/553784299;ICF:d560;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Driving;Driving;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/213067675;ICF:d475;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Driving;Driving;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/232546858;ICF:d4752;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Driving;Driving;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/596421546;ICF:d4750;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Driving;Driving;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/883216234;ICF:d4751;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EarlyDeathCausingDisease;Early death-causing disease;https://w3id.org/ofco/NotApplicable;;;
-https://w3id.org/ofco/Eating;Eating;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1328675264;ICF:d550;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Education;Education;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/49044301;;NTBT narrower term maps to a broader term 
-https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/564579529;ICF:d7701;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/680339969;ICF:d770;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/915318793;ICF:d7700;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1028299805;ICF:d8501;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1992737508;ICF:d850;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/70398301;ICF:d8502;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/711129309;ICF:d8500;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/EngagingInPaidWorkSupported;Engaging in paid work in supported, sheltered environment;https://w3id.org/ofco/WorkAndEconomicLife;;;
-https://w3id.org/ofco/EngagingInSexualRelationships;Engaging in sexual relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/417227145;ICF:d7702;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/EnvironmentalFactors;Environmental factors;;http://id.who.int/icd/entity/1141487728;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/FallingAsleep;Falling asleep;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/288718794;ICF:b1341;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/FocusingAttention;Focusing attention;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1022925808;ICF:d1601;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/FocusingAttention;Focusing attention;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/194413877;ICF:d160;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/FocusingAttention;Focusing attention;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/735117104;ICF:d1600;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Food;Food;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/814520574;ICF:e1100;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/FrequencyAssociation;Frequency association;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
-https://w3id.org/ofco/GettingGoodQualitySleep;Getting a good quality sleep;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/1063630410;ICF:b1343;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1481745047;ICF:b1522;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1630080983;ICF:b1521;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1979804439;ICF:b1520;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/668868854;ICF:b152;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1059632050;ICF:d8700;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/671143794;ICF:d8701;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/948398905;ICF:d870;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HandlingStress;Handling stress;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1011135336;ICF:d2400;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingStress;Handling stress;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/303332072;ICF:d2402;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingStress;Handling stress;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/639612322;ICF:d240;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HandlingStress;Handling stress;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/728553384;ICF:d2401;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HearingListening;Hearing, listening;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/1896301954;ICF:d115;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Household;Household;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1452836727;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Humidity;Humidity;https://w3id.org/ofco/Climate;http://id.who.int/icd/entity/1057942937;ICF:e2251;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HypervariableFunctioning;Hypervariable functioning;https://w3id.org/ofco/NotApplicable;;;
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1031850752;ICF:d7203;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1121550968;ICF:d7105;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1441916600;ICF:d7104;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1482290368;ICF:d7204;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/156267960;ICF:d7100;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1565443803;ICF:d720;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1936511680;ICF:d710;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/2074160952;ICF:d7106;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/332399488;ICF:d7201;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/511185272;ICF:d7101;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/573831863;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/654359608;ICF:d7102;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/715697728;ICF:d7202;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/807983352;ICF:d7103;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/83388352;ICF:d7200;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/InterpersonalSkills;Interpersonal skills;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/982325691;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Learning;Learning;https://w3id.org/ofco/Understanding;;;
-https://w3id.org/ofco/Learning;Learning;https://w3id.org/ofco/Understanding;;;
-https://w3id.org/ofco/LearningProfessionAdapted;Learning a profession in an adapted mainstream or special environment;https://w3id.org/ofco/Education;;;
-https://w3id.org/ofco/LearningProfessionStandard;Learning a profession in the standard environment;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1691523199;ICF:d825;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LearningToCalculate;Learning to calculate;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/136848552;ICF:d1502;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToCalculate;Learning to calculate;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1401433117;ICF:d150;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LearningToCalculate;Learning to calculate;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/645459240;ICF:d1500;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToCalculate;Learning to calculate;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/827361768;ICF:d1501;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToRead;Learning to read;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1050326081;ICF:d1400;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToRead;Learning to read;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/281705921;ICF:d1402;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToRead;Learning to read;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/699584641;ICF:d1401;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToRead;Learning to read;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/760395462;ICF:d140;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LearningToWrite;Learning to write;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1047450631;ICF:d1451;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToWrite;Learning to write;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/118913351;ICF:d1452;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LearningToWrite;Learning to write;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1725645062;ICF:d145;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LearningToWrite;Learning to write;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/692498631;ICF:d1450;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/LifeManagement;Life management;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1228414013;;NTBT narrower term maps to a broader term 
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1113959152;ICF:d4304;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1431162416;ICF:d4305;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/166485296;ICF:d4301;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/516176368;ICF:d4300;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/666670256;ICF:d4303;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/775704068;ICF:d430;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/815067248;ICF:d4302;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Light;Light;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/558848479;ICF:e240;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LightIntensity;Light intensity;https://w3id.org/ofco/Light;http://id.who.int/icd/entity/2379888;ICF:e2400;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LightQuality;Light quality;https://w3id.org/ofco/Light;http://id.who.int/icd/entity/386675888;ICF:e2401;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1300951288;ICF:d660;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1683028925;ICF:d6605;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1937284989;ICF:d6604;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/25806333;ICF:d6602;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/379691325;ICF:d6603;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/802753661;ICF:d6600;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/955345085;ICF:d6601;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/LossOfAbility;Loss of ability;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
-https://w3id.org/ofco/Low;Low;https://w3id.org/ofco/SeverityDisability;;;
-https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1131514421;ICF:d415;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/192549593;ICF:d4151;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/475166233;ICF:d4150;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/623565657;ICF:d4153;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/839040921;ICF:d4152;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/387210274;ICF:d7603;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/3946722;ICF:d7602;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/778891618;ICF:d7600;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/877156484;ICF:d760;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/960796066;ICF:d7601;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MaintainingHeadPosition;Maintaining head position;https://w3id.org/ofco/MaintainingBodyPosition;http://id.who.int/icd/entity/1474003417;ICF:d4155;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MaintainingStandingPosition;Maintaining a standing position;https://w3id.org/ofco/MaintainingBodyPosition;http://id.who.int/icd/entity/485719194;ICF:d4154;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/126518990;ICF:d175;NTBT narrower term maps to a broader term
-https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/278208942;ICF:d177;NTBT narrower term maps to a broader term
-https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/619619009;ICF:d1750;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/868664833;ICF:d1751;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MakingKeepingFriends;Making, keeping friends;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/600105830;ICF:d7500;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ManagingHealth;Managing one's health;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1398348540;ICF:d570;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ManagingHealth;Managing one's health;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/464886707;ICF:d5702;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ManagingHealth;Managing one's health;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/583874291;ICF:d5701;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ManagingHealth;Managing one's health;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/904221235;ICF:d5700;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1920216617;ICF:b144;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/408498832;ICF:b1443;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/906623760;ICF:b1441;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Moderate;Moderate;https://w3id.org/ofco/SeverityDisability;;;
-https://w3id.org/ofco/MotorSkills;Motor skills;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/2048203604;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MovingAround;Moving around;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1690270390;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MovingAround;Moving around;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/971000452;ICF:d460;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MovingAroundOutsideHome;Moving around outside home;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/999985799;ICF:d4601;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MovingAroundUsingTransportation;Moving around using transportation;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/1540367470;ICF:d480;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/MovingAroundUsingTransportation;Moving around using transportation;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/1690270390;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/MovingAroundWithinHome;Moving around within home;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/863976524;ICF:d4600;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/NoFunctionalDisability;No functional disability;;;;
-https://w3id.org/ofco/NotApplicable;Not Applicable;;;;
-https://w3id.org/ofco/NotApplicableForAnotherReason;Not applicable for another reason;https://w3id.org/ofco/NotApplicable;;;
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1019906798;ICF:b11421;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1023908327;ICF:b1142;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1341571943;ICF:b1144;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1670590220;ICF:b114;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/707788071;ICF:b1143;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/OrientingOneself;Orienting oneself;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/736292398;ICF:b11420;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInArtsAndCulture;Participating in arts and cultural activities;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/582699162;ICF:d9202;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/188997266;ICF:d3502;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/2041742354;ICF:d3504;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/476822098;ICF:d3503;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/622008082;ICF:d3500;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/842757074;ICF:d3501;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/952917930;ICF:d350;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/PerformingProfessionalTasks;Performing professional tasks;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/846512626;ICF:d8451;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1374022472;ICF:d4555;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1533561892;ICF:d4556;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1785164743;ICF:d4554;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/264129927;ICF:d4553;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/412494151;ICF:d4552;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/569279495;ICF:d4551;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/712447084;ICF:d455;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/919003335;ICF:d4550;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/PermanentLimitation;Permanent limitation;https://w3id.org/ofco/temporality;;;
-https://w3id.org/ofco/PlayingWithOthers;Playing with others;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/216760602;ICF:d9200;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/PracticingSports;Practising sports;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/465823194;ICF:d9201;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ProducingMessages;Producing messages;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/909196092;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ProducingMessagesInSignLanguage;Producing messages in sign language;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/941161899;ICF:d340;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/1116290334;ICF:d335;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/219270693;ICF:d3350;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/439986917;ICF:d3351;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/591464357;ICF:d3352;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReachingAndCatchingObjects;Reaching and catching objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1705856622;ICF:d4455;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReachingAndCatchingObjects;Reaching and catching objects;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/7630894;ICF:d4452;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Reading;Reading;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/2036850613%20;ICF:d166;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ReceivingMessages;Receiving messages;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/821507328;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ReceivingMessagesInSignLanguage;Receiving messages in sign language;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/2010796037;ICF:d320;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1682771693;ICF:d315;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/259252620;ICF:d3151;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/408651084;ICF:d3150;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/906710220;ICF:d3152;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1192395813;ICF:d310;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/414180620;ICF:d3101;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/462129663;ICF:d3103;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/567756876;ICF:d3102;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/ReceivingWrittenMessages;Receiving written messages;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1012115397;ICF:d325;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/RegulatingDefecation;Regulating defecation;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/140091437;ICF:d5301;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/RegulatingUrination;Regulating urination;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/527549677;ICF:d5300;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SeasonalCycles;Seasonal cycles;https://w3id.org/ofco/TimeRelatedChanges;http://id.who.int/icd/entity/1672445593;ICF:e2255;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SeeingWatching;Seeing watching;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/982430274;ICF:d110;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SeekingEmployment;Seeking employment;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/626828594;ICF:d8450;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SelfCare;Self care;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1608009360;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SeverityDisability;Severity disability;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
-https://w3id.org/ofco/Shopping;Shopping;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/88971939;ICF:d6200;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Sitting;Sitting;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/855039967;ICF:d4103;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SleepingBeingAwake;Sleeping / Being awake;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/2122861806;ICF:b134;NTBT narrower term maps to a broader term
-https://w3id.org/ofco/SocialLife;Social life;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1436113794;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Socializing;Socializing;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/1197635290;ICF:d9205;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Sound;Sound;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/1603650312;ICF:e250;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SoundIntensity;Sound intensity;https://w3id.org/ofco/Sound;http://id.who.int/icd/entity/415631623;ICF:e2500;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/SoundQuality;Sound quality;https://w3id.org/ofco/Sound;http://id.who.int/icd/entity/267283911;ICF:e2501;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Speaking;Speaking;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/151046878;ICF:d330;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Standing;standing;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1462755743;ICF:d4104;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/StayingAsleep;Staying asleep;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/676188810;ICF:b1342;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/StayingAwake;Staying awake;https://w3id.org/ofco/SleepingBeingAwake;;;
-https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/1873256446;ICF:d910;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/21205790;ICF:d9100;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/376174558;ICF:d9101;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/789797534;ICF:d9102;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/TemperamentAndBehaviour;Temperament and behaviour;https://w3id.org/ofco/ActivitiesAndParticipation;;;
-https://w3id.org/ofco/Temperature;Temperature;https://w3id.org/ofco/Climate;http://id.who.int/icd/entity/673614169;ICF:e2250;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/ThinkingAndReasoning;Thinking and reasoning;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/854468725;ICF:d163;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/TimeRelatedChanges;Time related changes;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/1791405599;ICF:e245;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/TransferringOneself;Transferring oneself;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/103178393;ICF:d4200;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/TransferringOneself;Transferring oneself;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1119392889;ICF:d420;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/TransferringOneself;Transferring oneself;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/286131289;ICF:d4201;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/TransientLimitation;Transient limitation;https://w3id.org/ofco/temporality;;;
-https://w3id.org/ofco/Travelling;Travelling;https://w3id.org/ofco/SocialLife;;;
-https://w3id.org/ofco/UndertakingComplexTask;Undertaking complex, multiple task;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/421140497;ICF:d2101;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/238189777;ICF:d2100;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/543339857;ICF:d2102;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/927650193;ICF:d2103;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/1066623446;ICF:d3601;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/116116630;ICF:d3602;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/517787226;ICF:d360;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/683345174;ICF:d3600;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingObjects;Using objects;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/2086581809;;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/UsingTransportation;Using transportation;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/220725870;ICF:d4703;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingTransportation;Using transportation;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/267105207;ICF:d470;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/UsingTransportation;Using transportation;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/436233902;ICF:d4702;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingTransportation;Using transportation;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/595119086;ICF:d4701;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/UsingTransportation;Using transportation;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/877702958;ICF:d4700;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/VeryFrequent;Very frequent;https://w3id.org/ofco/FrequencyAssociation;;;
-https://w3id.org/ofco/Vibrations;Vibrations;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/337392840;ICF:e255;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/WalkingLongDistances;Walking long distances;https://w3id.org/ofco/Walking;http://id.who.int/icd/entity/909279361;ICF:d4501;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/WalkingShortDistances;Walking short distances;https://w3id.org/ofco/Walking;http://id.who.int/icd/entity/555410497;ICF:d4500;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/WashingOneself;Washing oneself;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/171675522;ICF:d5100;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/WashingOneself;Washing oneself;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1882548282;ICF:d510;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/WashingOneself;Washing oneself;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/487844674;ICF:d5101;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/WorkAndEconomicLife;Work and economic life;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1805290862;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/WorkAndEconomicLife;Work and economic life;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/73014515;;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/Writing;Writing;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/1967923182;ICF:d170;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/Writing;Writing;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/492990407;ICF:d1702;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/Writing;Writing;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/605733511;ICF:d1701;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/Writing;Writing;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/858957383;ICF:d1700;BTNT broader term maps to a narrower term
-https://w3id.org/ofco/WritingMessages;Writing messages;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/1938885227;ICF:d345;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/temporality;Temporality;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
-https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/396915882;ICF:d4402;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/522484083;ICF:d440;E (Exact mapping: the two concepts are equivalent)
-https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/785439210;ICF:d4401;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/8392810;ICF:d4403;BTNT (broader term maps to a narrower term)
-https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/972602666;ICF:d4400;BTNT (broader term maps to a narrower term)
+﻿IRI;Label;Definition;Parent;ICF URI;ICF Code;Manual Mapping
+https://w3id.org/ofco/AccessingHigherEducation;Accessing higher education;;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1367471462;ICF:d830;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/AcquiringLanguage;Acquiring language;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1063388010;ICF:d1320;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/AcquiringLanguage;Acquiring language;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/288541418;ICF:d1322;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/AcquiringLanguage;Acquiring language;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/675964842;ICF:d1321;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/AcquiringLanguage;Acquiring language;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/840583219;ICF:d132;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/AcquisitionDelay;Acquisition delay;Delayed acquisition: a skill or a participation is performed later than by a healthy person.;https://w3id.org/ofco/temporality;;;
+https://w3id.org/ofco/ActivitiesAndParticipation;Activity limitation and participation restriction;;;http://id.who.int/icd/entity/1394728112;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/AirQuality;Air quality;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/126577200;ICF:e260;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/AirQuality;Air quality;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/359537409;ICF:e2600;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/AirQuality;Air quality;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/38174657;ICF:e2601;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ApplyingKnowledge;Applying knowledge;;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/1014916094;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/AttendingAdaptedSchool;Attending school in an adapted mainstream or special environment;;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/794521535;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/AttendingMainstreamSchool;attending mainstream school;;https://w3id.org/ofco/Education;;;
+https://w3id.org/ofco/AttendingPreschool;Attending preschool;;https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1020014935;ICF:d815;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/BeingAwareOfSpace;Being aware of space;;https://w3id.org/ofco/OrientingOneself;http://id.who.int/icd/entity/1341571943;ICF:b1141;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/BeingAwareOfTime;Being aware of time;;https://w3id.org/ofco/OrientingOneself;http://id.who.int/icd/entity/324489319;ICF:b1140;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Bending;Bending;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1074234719;ICF:d4105;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Calculating;Calculating;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/1528616558%20;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Calculating;Calculating;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/368481720;ICF:d1720;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1055600838;ICF:d5203;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/127114630;ICF:d5200;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1276799558;ICF:d5205;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1530007174;ICF:d5204;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/262798167;ICF:d520;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/280754502;ICF:d5201;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/416122824;ICF:d5206;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CaringForBodyParts;Caring for body parts;(skin, teeht, nails, hair, genitals);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/700666886;ICF:d5202;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CarryingOutAdministrativeProcedures;Carrying out administrative procedures;;https://w3id.org/ofco/WorkAndEconomicLife;;;
+https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/1205445822;ICF:d2304;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/2018794819;ICF:d230;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/206590846;ICF:d2301;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/570465022;ICF:d2303;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CarryingOutDailyRoutines;Carrying out daily routines;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/891878974;ICF:d2302;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ChangingBodyPosition;Changing body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1119392889;ICF:d420;NTBT narrower term maps to a broader term
+https://w3id.org/ofco/ChangingBodyPosition;Changing body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/150502901;ICF:d410;NTBT narrower term maps to a broader term
+https://w3id.org/ofco/Climate;Climate;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/621020081;ICF:e225;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/CognitiveAbilities;Cognitive abilities;;https://w3id.org/ofco/Understanding;;;
+https://w3id.org/ofco/CommunicatingWithOthers;Communicating with others;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1828012543;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Complete;Complete;Complete: Activity or participation cannot be carried out, even with technical and/or human assistance.;https://w3id.org/ofco/SeverityDisability;;;
+https://w3id.org/ofco/ControllingEatingBehaviour;Controlling one’s own eating behavior;;https://w3id.org/ofco/TemperamentAndBehaviour;;;
+https://w3id.org/ofco/ControllingGeneralBehaviour;Controlling one’s own general behaviour;;https://w3id.org/ofco/TemperamentAndBehaviour;;;
+https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/176662282;ICF:d6301;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/498058186;ICF:d6300;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/CookingPreparingMeals;Cooking, preparing meals;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/871682135;ICF:d630;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/DailyActivities;Daily activities;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1535125568;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DailyActivities;Daily activities;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/524305529;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DayNightCycles;Day and night cycles;;https://w3id.org/ofco/TimeRelatedChanges;http://id.who.int/icd/entity/402150632;ICF:e2450;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/DealingWithStrangers;Dealing with strangers;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/327373045;ICF:d730;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/DisabilityDisorderAssociation;Disability Disorder Association;Disability Disorder Association metadata from Orphanet;;;;
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1394299422;ICF:d640;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1714607124;ICF:d6404;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1897574612;ICF:d6405;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/348360340;ICF:d6402;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/65792596;ICF:d6403;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/767239124;ICF:d6401;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DoingHousework;Doing housework;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/982730516;ICF:d6400;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1693242165;ICF:d5404;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1860600370;ICF:d540;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/20311413;ICF:d5403;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/371034549;ICF:d5402;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/795157749;ICF:d5401;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/DressingUndressing;Dressing undressing;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/944586805;ICF:d5400;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Drinking;Drinking;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/553784299;ICF:d560;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Driving;Driving;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/213067675;ICF:d475;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Driving;Driving;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/232546858;ICF:d4752;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Driving;Driving;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/596421546;ICF:d4750;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Driving;Driving;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/883216234;ICF:d4751;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EarlyDeathCausingDisease;Early death-causing disease;This disease currently results most often in an early death occurring less than one year after the onset of the first symptoms or its diagnosis. Providing information about its functional consequences may be not relevant.;https://w3id.org/ofco/NotApplicable;;;
+https://w3id.org/ofco/Eating;Eating;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1328675264;ICF:d550;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Education;Education;;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/49044301;;NTBT narrower term maps to a broader term 
+https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/564579529;ICF:d7701;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/680339969;ICF:d770;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/EngagingInIntimateRelationships;Engaging in and maintaining intimate relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/915318793;ICF:d7700;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1028299805;ICF:d8501;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1992737508;ICF:d850;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/70398301;ICF:d8502;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EngagingInPaidWorkStandard;Engaging in paid work in standard environment;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/711129309;ICF:d8500;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/EngagingInPaidWorkSupported;Engaging in paid work in supported, sheltered environment;;https://w3id.org/ofco/WorkAndEconomicLife;;;
+https://w3id.org/ofco/EngagingInSexualRelationships;Engaging in sexual relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/417227145;ICF:d7702;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/EnvironmentalFactors;Environmental factors;;;http://id.who.int/icd/entity/1141487728;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/FallingAsleep;Falling asleep;;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/288718794;ICF:b1341;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/FocusingAttention;Focusing attention;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1022925808;ICF:d1601;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/FocusingAttention;Focusing attention;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/194413877;ICF:d160;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/FocusingAttention;Focusing attention;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/735117104;ICF:d1600;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Food;Food;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/814520574;ICF:e1100;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/FrequencyAssociation;Frequency association;Estimated frequency interval of a disability in the patient population.;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
+https://w3id.org/ofco/Frequent;Frequent;frequent: between 30% and 80%;https://w3id.org/ofco/FrequencyAssociation;;;
+https://w3id.org/ofco/GettingGoodQualitySleep;Getting a good quality sleep;;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/1063630410;ICF:b1343;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1481745047;ICF:b1522;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1630080983;ICF:b1521;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1979804439;ICF:b1520;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingEmotions;Handling emotions and mood;;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/668868854;ICF:b152;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/1059632050;ICF:d8700;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/671143794;ICF:d8701;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingMoney;Handling money, managing one’s own budget;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/948398905;ICF:d870;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HandlingStress;Handling stress;Handling stress, responsabilities, emergencies and ensuring one’s safety;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/1011135336;ICF:d2400;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingStress;Handling stress;Handling stress, responsabilities, emergencies and ensuring one’s safety;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/303332072;ICF:d2402;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingStress;Handling stress;Handling stress, responsabilities, emergencies and ensuring one’s safety;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/639612322;ICF:d240;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HandlingStress;Handling stress;Handling stress, responsabilities, emergencies and ensuring one’s safety;https://w3id.org/ofco/TemperamentAndBehaviour;http://id.who.int/icd/entity/728553384;ICF:d2401;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HearingListening;Hearing, listening;;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/1896301954;ICF:d115;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Household;Household;;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1452836727;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Humidity;Humidity;;https://w3id.org/ofco/Climate;http://id.who.int/icd/entity/1057942937;ICF:e2251;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HypervariableFunctioning;Hypervariable functioning;Information about the functional consequences of this disease can not be provided because of the extreme variability of its presentation between the patients.;https://w3id.org/ofco/NotApplicable;;;
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1031850752;ICF:d7203;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1121550968;ICF:d7105;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1441916600;ICF:d7104;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1482290368;ICF:d7204;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/156267960;ICF:d7100;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1565443803;ICF:d720;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/1936511680;ICF:d710;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/2074160952;ICF:d7106;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/332399488;ICF:d7201;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/511185272;ICF:d7101;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/573831863;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/654359608;ICF:d7102;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/715697728;ICF:d7202;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/807983352;ICF:d7103;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InteractingWithOthers;Interacting with other people;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/83388352;ICF:d7200;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/InterpersonalSkills;Interpersonal skills;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/982325691;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Learning;Learning;;https://w3id.org/ofco/Understanding;;;
+https://w3id.org/ofco/Learning;Learning;;https://w3id.org/ofco/Understanding;;;
+https://w3id.org/ofco/LearningProfessionAdapted;Learning a profession in an adapted mainstream or special environment;(Vocational training/Apprenticeship) in an adapted mainstream/special environment;https://w3id.org/ofco/Education;;;
+https://w3id.org/ofco/LearningProfessionStandard;Learning a profession in the standard environment;(Vocational training/Apprenticeship);https://w3id.org/ofco/Education;http://id.who.int/icd/entity/1691523199;ICF:d825;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LearningToCalculate;Learning to calculate;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/136848552;ICF:d1502;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToCalculate;Learning to calculate;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1401433117;ICF:d150;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LearningToCalculate;Learning to calculate;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/645459240;ICF:d1500;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToCalculate;Learning to calculate;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/827361768;ICF:d1501;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToRead;Learning to read;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1050326081;ICF:d1400;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToRead;Learning to read;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/281705921;ICF:d1402;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToRead;Learning to read;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/699584641;ICF:d1401;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToRead;Learning to read;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/760395462;ICF:d140;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LearningToWrite;Learning to write;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1047450631;ICF:d1451;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToWrite;Learning to write;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/118913351;ICF:d1452;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LearningToWrite;Learning to write;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/1725645062;ICF:d145;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LearningToWrite;Learning to write;;https://w3id.org/ofco/Learning;http://id.who.int/icd/entity/692498631;ICF:d1450;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/LifeManagement;Life management;;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1228414013;;NTBT narrower term maps to a broader term 
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1113959152;ICF:d4304;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1431162416;ICF:d4305;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/166485296;ICF:d4301;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/516176368;ICF:d4300;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/666670256;ICF:d4303;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/775704068;ICF:d430;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LiftingAndCarryingObjects;Lifting and carrying objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/815067248;ICF:d4302;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Light;Light;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/558848479;ICF:e240;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LightIntensity;Light intensity;;https://w3id.org/ofco/Light;http://id.who.int/icd/entity/2379888;ICF:e2400;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LightQuality;Light quality;;https://w3id.org/ofco/Light;http://id.who.int/icd/entity/386675888;ICF:e2401;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1300951288;ICF:d660;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1683028925;ICF:d6605;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/1937284989;ICF:d6604;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/25806333;ICF:d6602;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/379691325;ICF:d6603;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/802753661;ICF:d6600;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LookingAfterHelpingOthers;Looking after, helping others;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/955345085;ICF:d6601;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/LossOfAbility;Loss of ability;the loss of ability when relevant, defined by the progressive and definitive loss of a skill or participation over the course of the disease.;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
+https://w3id.org/ofco/Low;Low;low: Activity or participation can be carried out with little difficulty by the patient alone.;https://w3id.org/ofco/SeverityDisability;;;
+https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1131514421;ICF:d415;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/192549593;ICF:d4151;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/475166233;ICF:d4150;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/623565657;ICF:d4153;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingBodyPosition;Maintaining body position;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/839040921;ICF:d4152;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/387210274;ICF:d7603;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/3946722;ICF:d7602;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/778891618;ICF:d7600;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/877156484;ICF:d760;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MaintainingFamilyRelationships;Maintaining family relationships;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/960796066;ICF:d7601;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MaintainingHeadPosition;Maintaining head position;;https://w3id.org/ofco/MaintainingBodyPosition;http://id.who.int/icd/entity/1474003417;ICF:d4155;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MaintainingStandingPosition;Maintaining a standing position;;https://w3id.org/ofco/MaintainingBodyPosition;http://id.who.int/icd/entity/485719194;ICF:d4154;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/126518990;ICF:d175;NTBT narrower term maps to a broader term
+https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/278208942;ICF:d177;NTBT narrower term maps to a broader term
+https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/619619009;ICF:d1750;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MakingDecisionsTakingInitiativesFindingSolutions;Making decisions, Taking initiatives, Finding solutions;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/868664833;ICF:d1751;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MakingKeepingFriends;Making, keeping friends;;https://w3id.org/ofco/InterpersonalSkills;http://id.who.int/icd/entity/600105830;ICF:d7500;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ManagingHealth;Managing one's health;(diet, medications, prevention, needs, assistance, monitoring);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1398348540;ICF:d570;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ManagingHealth;Managing one's health;(diet, medications, prevention, needs, assistance, monitoring);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/464886707;ICF:d5702;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ManagingHealth;Managing one's health;(diet, medications, prevention, needs, assistance, monitoring);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/583874291;ICF:d5701;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ManagingHealth;Managing one's health;(diet, medications, prevention, needs, assistance, monitoring);https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/904221235;ICF:d5700;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1920216617;ICF:b144;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/408498832;ICF:b1443;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MemorizingAndRetrieving;Memorizing and retrieving;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/906623760;ICF:b1441;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Moderate;Moderate;moderate: Activity or participation can be carried out with some technical and/or human assistance;https://w3id.org/ofco/SeverityDisability;;;
+https://w3id.org/ofco/MotorSkills;Motor skills;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/2048203604;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MovingAround;Moving around;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1690270390;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MovingAround;Moving around;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/971000452;ICF:d460;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MovingAroundOutsideHome;Moving around outside home;;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/999985799;ICF:d4601;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MovingAroundUsingTransportation;Moving around using transportation;;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/1540367470;ICF:d480;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/MovingAroundUsingTransportation;Moving around using transportation;;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/1690270390;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/MovingAroundWithinHome;Moving around within home;;https://w3id.org/ofco/MovingAround;http://id.who.int/icd/entity/863976524;ICF:d4600;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/NoFunctionalDisability;No functional disability;This disease is usually not associated with any of the functional difficulties (activity limitations and/or participation restrictions) listed in the Orphanet Functioning Thesaurus, when the patient receives optimal standard care and management (specific and/or symptomatic management, prevention and prophylaxis, devices and aids, care and support);;;;
+https://w3id.org/ofco/NotApplicable;Not Applicable;Indicates that a particular disability assessment is not applicable to this disorder for various reasons;;;;
+https://w3id.org/ofco/NotApplicableForAnotherReason;Not applicable for another reason;Information about the functional consequences of this disease can not be provided because information is so scarce that functional assessment is not currently possible.;https://w3id.org/ofco/NotApplicable;;;
+https://w3id.org/ofco/Occasional;Occasional;occasional: fewer than 30%;https://w3id.org/ofco/FrequencyAssociation;;;
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1019906798;ICF:b11421;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1023908327;ICF:b1142;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1341571943;ICF:b1144;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/1670590220;ICF:b114;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/707788071;ICF:b1143;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/OrientingOneself;Orienting oneself;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/736292398;ICF:b11420;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInArtsAndCulture;Participating in arts and cultural activities;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/582699162;ICF:d9202;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/188997266;ICF:d3502;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/2041742354;ICF:d3504;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/476822098;ICF:d3503;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/622008082;ICF:d3500;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/842757074;ICF:d3501;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ParticipatingInConversation;Participating in conversation;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/952917930;ICF:d350;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/PerformingProfessionalTasks;Performing professional tasks;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/846512626;ICF:d8451;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1374022472;ICF:d4555;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1533561892;ICF:d4556;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1785164743;ICF:d4554;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/264129927;ICF:d4553;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/412494151;ICF:d4552;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/569279495;ICF:d4551;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/712447084;ICF:d455;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/PerformingVigorousActivities;Performing vigorous activities;climbing, running, jumping, swimming...;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/919003335;ICF:d4550;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/PermanentLimitation;Permanent limitation;permanent limitation/restriction: the functional consequence is present throughout the life of the patient. It can be congenital, secondary to loss of a skill or a participation. It can be a direct or indirect consequence of the disease or of its treatment.;https://w3id.org/ofco/temporality;;;
+https://w3id.org/ofco/PlayingWithOthers;Playing with others;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/216760602;ICF:d9200;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/PracticingSports;Practising sports;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/465823194;ICF:d9201;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ProducingMessages;Producing messages;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/909196092;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ProducingMessagesInSignLanguage;Producing messages in sign language;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/941161899;ICF:d340;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/1116290334;ICF:d335;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/219270693;ICF:d3350;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/439986917;ICF:d3351;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ProducingNonverbalMessages;Producing nonverbal messages;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/591464357;ICF:d3352;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReachingAndCatchingObjects;Reaching and catching objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/1705856622;ICF:d4455;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReachingAndCatchingObjects;Reaching and catching objects;;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/7630894;ICF:d4452;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Reading;Reading;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/2036850613%20;ICF:d166;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ReceivingMessages;Receiving messages;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/821507328;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ReceivingMessagesInSignLanguage;Receiving messages in sign language;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/2010796037;ICF:d320;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1682771693;ICF:d315;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/259252620;ICF:d3151;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/408651084;ICF:d3150;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingNonverbalMessages;Receiving nonverbal messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/906710220;ICF:d3152;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1192395813;ICF:d310;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/414180620;ICF:d3101;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/462129663;ICF:d3103;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingSpokenMessages;Receiving spoken messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/567756876;ICF:d3102;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/ReceivingWrittenMessages;Receiving written messages;;https://w3id.org/ofco/ReceivingMessages;http://id.who.int/icd/entity/1012115397;ICF:d325;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/RegulatingDefecation;Regulating defecation;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/140091437;ICF:d5301;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/RegulatingUrination;Regulating urination;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/527549677;ICF:d5300;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SeasonalCycles;Seasonal cycles;;https://w3id.org/ofco/TimeRelatedChanges;http://id.who.int/icd/entity/1672445593;ICF:e2255;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SeeingWatching;Seeing watching;;https://w3id.org/ofco/Understanding;http://id.who.int/icd/entity/982430274;ICF:d110;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SeekingEmployment;Seeking employment;;https://w3id.org/ofco/WorkAndEconomicLife;http://id.who.int/icd/entity/626828594;ICF:d8450;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SelfCare;Self care;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1608009360;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Severe;Severe;severe: Activity or participation cannot be carried out without substantial technical and/or human assistance.;https://w3id.org/ofco/SeverityDisability;;;
+https://w3id.org/ofco/SeverityDisability;Severity disability;the degree of disability severity;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
+https://w3id.org/ofco/Shopping;Shopping;;https://w3id.org/ofco/Household;http://id.who.int/icd/entity/88971939;ICF:d6200;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Sitting;Sitting;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/855039967;ICF:d4103;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SleepingBeingAwake;Sleeping / Being awake;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/2122861806;ICF:b134;NTBT narrower term maps to a broader term
+https://w3id.org/ofco/SocialLife;Social life;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/1436113794;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Socializing;Socializing;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/1197635290;ICF:d9205;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Sound;Sound;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/1603650312;ICF:e250;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SoundIntensity;Sound intensity;;https://w3id.org/ofco/Sound;http://id.who.int/icd/entity/415631623;ICF:e2500;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/SoundQuality;Sound quality;;https://w3id.org/ofco/Sound;http://id.who.int/icd/entity/267283911;ICF:e2501;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Speaking;Speaking;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/151046878;ICF:d330;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Standing;standing;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1462755743;ICF:d4104;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/StayingAsleep;Staying asleep;;https://w3id.org/ofco/SleepingBeingAwake;http://id.who.int/icd/entity/676188810;ICF:b1342;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/StayingAwake;Staying awake;;https://w3id.org/ofco/SleepingBeingAwake;;;
+https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/1873256446;ICF:d910;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/21205790;ICF:d9100;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/376174558;ICF:d9101;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/TakingPartInCommunityLife;Taking part in community life;;https://w3id.org/ofco/SocialLife;http://id.who.int/icd/entity/789797534;ICF:d9102;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/TemperamentAndBehaviour;Temperament and behaviour;;https://w3id.org/ofco/ActivitiesAndParticipation;;;
+https://w3id.org/ofco/Temperature;Temperature;;https://w3id.org/ofco/Climate;http://id.who.int/icd/entity/673614169;ICF:e2250;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/ThinkingAndReasoning;Thinking and reasoning;;https://w3id.org/ofco/CognitiveAbilities;http://id.who.int/icd/entity/854468725;ICF:d163;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/TimeRelatedChanges;Time related changes;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/1791405599;ICF:e245;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/TransferringOneself;Transferring oneself;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/103178393;ICF:d4200;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/TransferringOneself;Transferring oneself;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/1119392889;ICF:d420;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/TransferringOneself;Transferring oneself;;https://w3id.org/ofco/ChangingBodyPosition;http://id.who.int/icd/entity/286131289;ICF:d4201;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/TransientLimitation;Transient limitation;transient limitation/restriction : the functional consequence occurs during acute episodes, periodic crises or relapses. It resolves or reduces spontaneously or by the action of a treatment or care.;https://w3id.org/ofco/temporality;;;
+https://w3id.org/ofco/Travelling;Travelling;;https://w3id.org/ofco/SocialLife;;;
+https://w3id.org/ofco/Understanding;Understanding;;https://w3id.org/ofco/ActivitiesAndParticipation;http://id.who.int/icd/entity/2011053685;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UndertakingComplexTask;Undertaking complex, multiple task;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/421140497;ICF:d2101;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/238189777;ICF:d2100;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/543339857;ICF:d2102;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UndertakingSimpleTask;Undertaking simple task;;https://w3id.org/ofco/LifeManagement;http://id.who.int/icd/entity/927650193;ICF:d2103;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Unspecified;Unspecified;Unspecified: Limitation/restriction is difficult to quantify or highly variable between patients (ranging from 'Low' to 'Complete');https://w3id.org/ofco/SeverityDisability;;;
+https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/1066623446;ICF:d3601;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/116116630;ICF:d3602;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/517787226;ICF:d360;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/UsingCommunicationDevices;Using communication devices;;https://w3id.org/ofco/CommunicatingWithOthers;http://id.who.int/icd/entity/683345174;ICF:d3600;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingObjects;Using objects;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/2086581809;;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/UsingTransportation;Using transportation;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/220725870;ICF:d4703;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingTransportation;Using transportation;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/267105207;ICF:d470;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/UsingTransportation;Using transportation;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/436233902;ICF:d4702;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingTransportation;Using transportation;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/595119086;ICF:d4701;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/UsingTransportation;Using transportation;;https://w3id.org/ofco/MovingAroundUsingTransportation;http://id.who.int/icd/entity/877702958;ICF:d4700;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/VeryFrequent;Very frequent;very frequent: more than 80%;https://w3id.org/ofco/FrequencyAssociation;;;
+https://w3id.org/ofco/Vibrations;Vibrations;;https://w3id.org/ofco/EnvironmentalFactors;http://id.who.int/icd/entity/337392840;ICF:e255;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Walking;Walking;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/1550548595;ICF:d450;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Walking;Walking;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/256519617;ICF:d4502;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Walking;Walking;;https://w3id.org/ofco/MotorSkills;http://id.who.int/icd/entity/409094401;ICF:d4503;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/WalkingLongDistances;Walking long distances;;https://w3id.org/ofco/Walking;http://id.who.int/icd/entity/909279361;ICF:d4501;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/WalkingShortDistances;Walking short distances;;https://w3id.org/ofco/Walking;http://id.who.int/icd/entity/555410497;ICF:d4500;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/WashingOneself;Washing oneself;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/171675522;ICF:d5100;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/WashingOneself;Washing oneself;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/1882548282;ICF:d510;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/WashingOneself;Washing oneself;;https://w3id.org/ofco/SelfCare;http://id.who.int/icd/entity/487844674;ICF:d5101;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/WorkAndEconomicLife;Work and economic life;;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/1805290862;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/WorkAndEconomicLife;Work and economic life;;https://w3id.org/ofco/DailyActivities;http://id.who.int/icd/entity/73014515;;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/Writing;Writing;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/1967923182;ICF:d170;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/Writing;Writing;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/492990407;ICF:d1702;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/Writing;Writing;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/605733511;ICF:d1701;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/Writing;Writing;;https://w3id.org/ofco/ApplyingKnowledge;http://id.who.int/icd/entity/858957383;ICF:d1700;BTNT broader term maps to a narrower term
+https://w3id.org/ofco/WritingMessages;Writing messages;;https://w3id.org/ofco/ProducingMessages;http://id.who.int/icd/entity/1938885227;ICF:d345;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/temporality;Temporality;;https://w3id.org/ofco/DisabilityDisorderAssociation;;;
+https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/396915882;ICF:d4402;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/522484083;ICF:d440;E (Exact mapping: the two concepts are equivalent)
+https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/785439210;ICF:d4401;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/8392810;ICF:d4403;BTNT (broader term maps to a narrower term)
+https://w3id.org/ofco/HandlingObjects_(fine_hand_use);Handling objects (fine hand use);;https://w3id.org/ofco/UsingObjects;http://id.who.int/icd/entity/972602666;ICF:d4400;BTNT (broader term maps to a narrower term)
+
+
+--- SECTION ANNOTATION PROPERTIES ---;;;
+IRI;Label;Definition;Type
+http://purl.obolibrary.org/obo/ECO_0000205;curator_inference;;owl:AnnotationProperty
+http://purl.obolibrary.org/obo/ECO_0000218;manual_assertion;;owl:AnnotationProperty
+http://purl.org/dc/elements/1.1/creator;;;owl:AnnotationProperty
+http://purl.org/dc/terms/created;;;owl:AnnotationProperty
+http://purl.org/dc/terms/license;;;owl:AnnotationProperty
+http://www.ebi.ac.uk/efo/alternative_term;;;owl:AnnotationProperty
+http://www.ebi.ac.uk/efo/definition;;;owl:AnnotationProperty
+http://www.ebi.ac.uk/efo/definition_citation;;;owl:AnnotationProperty
+http://www.geneontology.org/formats/oboInOwl#hasDbXref;;;owl:AnnotationProperty
+http://www.w3.org/2004/02/skos/core#notation;;;owl:AnnotationProperty
+https://w3id.org/ofco/concernsDisability;Concerns disability;Thesaurus term used to annotate a disease;owl:AnnotationProperty
+https://w3id.org/ofco/hasDisabilityAnnotation;hasDisabilityAnnotation;Diseases annotated with OFCO thesaurus;owl:AnnotationProperty
+https://w3id.org/ofco/hasDisabilityCategory;hasDisabilityCategory;;owl:AnnotationProperty
+https://w3id.org/ofco/hasFrequency;hasFrequency;Frequency of a disability in a given population;owl:AnnotationProperty
+https://w3id.org/ofco/hasICFcode;hasICFcode;A code within the International Classification of Functioning, Disability and Health (ICF);owl:AnnotationProperty
+https://w3id.org/ofco/hasICFuri;hasICFuri;WHO Foundation URI (Uniform Resource Identifier) refers to a specific, globally unique identifier used to locate and reference entities within the World Health Organization (WHO) systems;owl:AnnotationProperty
+https://w3id.org/ofco/hasOrphanetDisabilityLink;hasOrphanetDisabilityLink;Link to Orphanet's website disability page;owl:AnnotationProperty
+https://w3id.org/ofco/hasOrphanetDiseaseLink;hasOrphanetDiseaseLink;Link to Orphanet's website disease page;owl:AnnotationProperty
+https://w3id.org/ofco/hasReasonForNotApplicable;hasReasonForNotApplicable;;owl:AnnotationProperty
+https://w3id.org/ofco/hasSeverity;hasSeverity;;owl:AnnotationProperty
+https://w3id.org/ofco/hasSourceOfValidation;;Source of validation for the disability-disorder association, including expert name and role;owl:AnnotationProperty
+https://w3id.org/ofco/hasSpecificManagement;hasSpecificManagement;Boolean indicator of whether specific management is required for the disability;owl:AnnotationProperty
+https://w3id.org/ofco/hasTemporality;hasTemporality;;owl:AnnotationProperty
+https://w3id.org/ofco/lossOfAbility;LossOfAbility;;owl:AnnotationProperty
+https://w3id.org/ofco/versionInfo;;;owl:AnnotationProperty

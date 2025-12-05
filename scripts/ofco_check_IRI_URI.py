@@ -1,4 +1,8 @@
 # Marc Hanauer @Orphanet 2025
+# Check if thesaurus classes with ICF URI Exact mapping are unique
+# Check classes without ICF URI (could be legit, not systematic errors)
+# NB: input/ouput files defined at the end of script
+# TODO : use filename as argument
 import csv
 from collections import defaultdict
 from datetime import datetime
@@ -109,7 +113,7 @@ def write_output_file(filename, all_iris, iris_without_icf, duplicated_icf):
         f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write("=" * 80 + "\n\n")
         
-        # Check 1: IRIs without hasICFuri
+        # Check n1: IRIs without hasICFuri
         f.write("=" * 80 + "\n")
         f.write("CHECK 1: IRIs without hasICFuri\n")
         f.write("=" * 80 + "\n\n")
@@ -123,7 +127,7 @@ def write_output_file(filename, all_iris, iris_without_icf, duplicated_icf):
         else:
             f.write("✓ All IRIs have at least one hasICFuri\n\n")
         
-        # Check 2: Duplicate hasICFuri
+        # Check n2: Duplicate hasICFuri
         f.write("\n" + "=" * 80 + "\n")
         f.write("CHECK 2: Shared hasICFuri for exact mappings (E)\n")
         f.write("=" * 80 + "\n\n")
