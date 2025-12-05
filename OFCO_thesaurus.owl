@@ -107,6 +107,7 @@
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/concernsDisability">
         <efo:definition>Thesaurus term used to annotate a disease</efo:definition>
+        <rdfs:label xml:lang="en">Concerns disability</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -115,13 +116,16 @@
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasDisabilityAnnotation">
         <efo:definition>Diseases annotated with OFCO thesaurus</efo:definition>
+        <rdfs:label xml:lang="en">hasDisabilityAnnotation</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- https://w3id.org/ofco/hasDisabilityCategory -->
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasDisabilityCategory"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasDisabilityCategory">
+        <rdfs:label xml:lang="en">hasDisabilityCategory</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -129,6 +133,7 @@
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasFrequency">
         <efo:definition>Frequency of a disability in a given population</efo:definition>
+        <rdfs:label xml:lang="en">hasFrequency</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -138,6 +143,7 @@
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasICFcode">
         <efo:definition xml:lang="en">A code within the International Classification of Functioning, Disability and Health (ICF)</efo:definition>
         <rdfs:comment xml:lang="en">hasICFcode</rdfs:comment>
+        <rdfs:label xml:lang="en">hasICFcode</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -147,6 +153,7 @@
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasICFuri">
         <efo:definition>WHO Foundation URI (Uniform Resource Identifier) refers to a specific, globally unique identifier used to locate and reference entities within the World Health Organization (WHO) systems</efo:definition>
         <rdfs:comment>hasICFuri</rdfs:comment>
+        <rdfs:label xml:lang="en">hasICFuri</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -155,6 +162,7 @@
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasOrphanetDisabilityLink">
         <efo:definition xml:lang="en">Link to Orphanet&apos;s website disability page</efo:definition>
+        <rdfs:label xml:lang="en">hasOrphanetDisabilityLink</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </owl:AnnotationProperty>
     
@@ -164,6 +172,7 @@
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasOrphanetDiseaseLink">
         <efo:definition xml:lang="en">Link to Orphanet&apos;s website disease page</efo:definition>
+        <rdfs:label xml:lang="en">hasOrphanetDiseaseLink</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </owl:AnnotationProperty>
     
@@ -171,13 +180,17 @@
 
     <!-- https://w3id.org/ofco/hasReasonForNotApplicable -->
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasReasonForNotApplicable"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasReasonForNotApplicable">
+        <rdfs:label xml:lang="en">hasReasonForNotApplicable</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://w3id.org/ofco/hasSeverity -->
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasSeverity"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasSeverity">
+        <rdfs:label xml:lang="en">hasSeverity</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -194,6 +207,7 @@
     <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasSpecificManagement">
         <efo:definition xml:lang="en">Boolean indicator of whether specific management is required for the disability</efo:definition>
         <rdfs:comment xml:lang="en">Values: true or false</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSpecificManagement</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:AnnotationProperty>
     
@@ -201,13 +215,17 @@
 
     <!-- https://w3id.org/ofco/hasTemporality -->
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasTemporality"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/hasTemporality">
+        <rdfs:label xml:lang="en">hasTemporality</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://w3id.org/ofco/lossOfAbility -->
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/lossOfAbility"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/ofco/lossOfAbility">
+        <rdfs:label xml:lang="en">LossOfAbility</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -1992,6 +2010,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/FrequencyAssociation"/>
         <efo:definition xml:lang="en">frequent: between 30% and 80%</efo:definition>
+        <rdfs:label xml:lang="en">Frequent</rdfs:label>
     </owl:Class>
     
 
@@ -2957,7 +2976,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Light"/>
-        <rdfs:label>Light intensity</rdfs:label>
+        <rdfs:label xml:lang="en">Light intensity</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2379888"/>
     </owl:Class>
     <owl:Axiom>
@@ -2990,7 +3009,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/Light"/>
-        <rdfs:label>Light quality</rdfs:label>
+        <rdfs:label xml:lang="en">Light quality</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/386675888"/>
     </owl:Class>
     <owl:Axiom>
@@ -3833,6 +3852,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/FrequencyAssociation"/>
         <efo:definition xml:lang="en">occasional: fewer than 30%</efo:definition>
+        <rdfs:label xml:lang="en">Occasional</rdfs:label>
     </owl:Class>
     
 
@@ -4880,6 +4900,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">severe: Activity or participation cannot be carried out without substantial technical and/or human assistance.</efo:definition>
+        <rdfs:label xml:lang="en">Severe</rdfs:label>
     </owl:Class>
     
 
@@ -5359,7 +5380,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
-        <rdfs:label>Temperament and behaviour</rdfs:label>
+        <rdfs:label xml:lang="en">Temperament and behaviour</rdfs:label>
     </owl:Class>
     
 
@@ -5582,6 +5603,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/ActivitiesAndParticipation"/>
+        <rdfs:label xml:lang="en">Understanding</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/2011053685"/>
     </owl:Class>
     <owl:Axiom>
@@ -5698,6 +5720,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/SeverityDisability"/>
         <efo:definition xml:lang="en">Unspecified: Limitation/restriction is difficult to quantify or highly variable between patients (ranging from &apos;Low&apos; to &apos;Complete&apos;)</efo:definition>
+        <rdfs:label xml:lang="en">Unspecified</rdfs:label>
     </owl:Class>
     
 
@@ -5940,6 +5963,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/ofco/MotorSkills"/>
+        <rdfs:label xml:lang="en">Walking</rdfs:label>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/1550548595"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/256519617"/>
         <hasICFuri rdf:resource="http://id.who.int/icd/entity/409094401"/>
