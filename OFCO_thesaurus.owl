@@ -16,14 +16,14 @@
      xmlns:definition="http://www.ebi.ac.uk/efo/definition#">
     <owl:Ontology rdf:about="https://w3id.org/ofco/">
         <owl:versionIRI rdf:resource="https://w3id.org/ofco/0.1.0"/>
-        <dc:publisher>INSERM - ORPHANET US14</dc:publisher>
+        <dc:contributor>Valérie Lanneau</dc:contributor>
         <dc:creator>Ana Rath</dc:creator>
         <dc:creator>Marc Hanauer</dc:creator>
         <dc:creator>Rami Nadji</dc:creator>
-        <dc:contributor>Valérie Lanneau</dc:contributor>
+        <dc:publisher>INSERM - ORPHANET US14</dc:publisher>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T17:00:00</terms:created>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</versionInfo>
+        <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</versionInfo>
     </owl:Ontology>
     
 
@@ -55,9 +55,21 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
     
 
 
