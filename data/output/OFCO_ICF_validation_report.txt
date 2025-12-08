@@ -1,0 +1,110 @@
+================================================================================
+OFCO-ICF MAPPING VALIDATION REPORT
+Generated: 2025-12-04 11:13:56
+================================================================================
+
+================================================================================
+CHECK 1: IRIs without hasICFuri
+================================================================================
+
+Found 28 IRI(s) without hasICFuri:
+
+  - AcquisitionDelay
+    https://w3id.org/ofco/AcquisitionDelay
+
+  - AttendingMainstreamSchool
+    https://w3id.org/ofco/AttendingMainstreamSchool
+
+  - CarryingOutAdministrativeProcedures
+    https://w3id.org/ofco/CarryingOutAdministrativeProcedures
+
+  - CognitiveAbilities
+    https://w3id.org/ofco/CognitiveAbilities
+
+  - Complete
+    https://w3id.org/ofco/Complete
+
+  - ControllingEatingBehaviour
+    https://w3id.org/ofco/ControllingEatingBehaviour
+
+  - ControllingGeneralBehaviour
+    https://w3id.org/ofco/ControllingGeneralBehaviour
+
+  - DisabilityDisorderAssociation
+    https://w3id.org/ofco/DisabilityDisorderAssociation
+
+  - EarlyDeathCausingDisease
+    https://w3id.org/ofco/EarlyDeathCausingDisease
+
+  - EngagingInPaidWorkSupported
+    https://w3id.org/ofco/EngagingInPaidWorkSupported
+
+  - FrequencyAssociation
+    https://w3id.org/ofco/FrequencyAssociation
+
+  - HypervariableFunctioning
+    https://w3id.org/ofco/HypervariableFunctioning
+
+  - Learning
+    https://w3id.org/ofco/Learning
+
+  - LearningProfessionAdapted
+    https://w3id.org/ofco/LearningProfessionAdapted
+
+  - LossOfAbility
+    https://w3id.org/ofco/LossOfAbility
+
+  - Low
+    https://w3id.org/ofco/Low
+
+  - Moderate
+    https://w3id.org/ofco/Moderate
+
+  - NoFunctionalDisability
+    https://w3id.org/ofco/NoFunctionalDisability
+
+  - NotApplicable
+    https://w3id.org/ofco/NotApplicable
+
+  - NotApplicableForAnotherReason
+    https://w3id.org/ofco/NotApplicableForAnotherReason
+
+  - PermanentLimitation
+    https://w3id.org/ofco/PermanentLimitation
+
+  - SeverityDisability
+    https://w3id.org/ofco/SeverityDisability
+
+  - StayingAwake
+    https://w3id.org/ofco/StayingAwake
+
+  - TemperamentAndBehaviour
+    https://w3id.org/ofco/TemperamentAndBehaviour
+
+  - TransientLimitation
+    https://w3id.org/ofco/TransientLimitation
+
+  - Travelling
+    https://w3id.org/ofco/Travelling
+
+  - VeryFrequent
+    https://w3id.org/ofco/VeryFrequent
+
+  - temporality
+    https://w3id.org/ofco/temporality
+
+
+================================================================================
+CHECK 2: Shared hasICFuri for exact mappings (E)
+================================================================================
+
+✓ All hasICFuri with exact mapping (E) are unique
+
+
+================================================================================
+SUMMARY
+================================================================================
+Total OFCO IRIs analyzed: 145
+IRIs without hasICFuri: 28
+Duplicated hasICFuri (E mappings): 0
+================================================================================

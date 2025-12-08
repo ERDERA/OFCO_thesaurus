@@ -1,0 +1,21 @@
+PREFIX ofco: <https://w3id.org/ofco/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+
+SELECT ?disorder ?disorderLabel ?disability ?disabilityLabel ?severity
+WHERE {
+  # annotation must be type
+  ?disorder ofco:hasDisabilityAnnotation ?annotation .
+  ?annotation a ofco:DisabilityDisorderAssociation ;
+              ofco:concernsDisability ?disability .
+  
+  # get up hierarchy : SelfCare and all its subclasses
+  ?disability rdfs:subClassOf* ofco:SelfCare .
+  
+  # Optionnel : get severity
+  OPTIONAL { ?annotation ofco:hasSeverity ?severity }
+  
+  # Labels
+  OPTIONAL { ?disability rdfs:label ?disabilityLabel . FILTER(lang(?disabilityLabel) = "en") }
+}
+ORDER BY ?disorder

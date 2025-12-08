@@ -1,0 +1,17 @@
+# diseases by severe motricity disabilities
+
+PREFIX ofco: <https://w3id.org/ofco/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT SELECT ?disorder ("MotorSkills" AS ?MainSearchedCategory) ?disabilityLabel
+WHERE {
+  ?disorder ofco:hasDisabilityAnnotation ?annotation .
+  ?annotation a ofco:DisabilityDisorderAssociation ;
+              ofco:concernsDisability ?disability ;
+              ofco:hasSeverity ofco:Severe .
+  
+  # Filter by hierarchy : Motor Skills and subclasses
+  ?disability rdfs:subClassOf* ofco:MotorSkills .
+  
+  OPTIONAL { ?disability rdfs:label ?disabilityLabel . FILTER(lang(?disabilityLabel) = "en") }
+}
