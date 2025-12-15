@@ -29,8 +29,8 @@ An adapted version is used: Disability_Orphanet_annotations.xml ([`Disability_Or
 - A script has been done to check ICF URI within OFCO_thesaurus_ICF.csv and generate a report : OFCO_ICF_validation_report.txt
 
 ## Testing Method
-ORDO has been used. ([`ORDO_en_4.7.owl`](https://sciences.orphadata.com/ordo/))
-Import ORDO (ORDO_en_4.7.owl), Diseases_annotated_with_OFCO.owl and OFCO_Thesaurus.owl in a graphDB instance.
+ORDO has been used. ([`ORDO_en_4.8.owl`](https://sciences.orphadata.com/ordo/))
+Import ORDO (ORDO_en_4.8.owl), Diseases_annotated_with_OFCO.owl and OFCO_Thesaurus.owl in a graphDB instance.
 Testing with SPARQL queries.
 
 ## Project Organization
