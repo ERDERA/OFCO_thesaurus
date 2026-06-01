@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Core Categories
     Root((owl:Thing))
@@ -41,3 +42,4 @@ graph TD
     
     class Root rootNode;
     class DataProps,AnnProps dataNode;
+    ```
